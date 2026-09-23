@@ -45,11 +45,11 @@ def borrow_book():
     book = search_book()
 
     if book:
-        id = int(input("Enter user id: "))
+        uid = int(input("Enter user id: "))
         name = "NIL"
 
         for i in Users:
-            if i["user_id"] == id:
+            if i["user_id"] == uid:
                 name = i["name"]
 
         if name == "NIL":

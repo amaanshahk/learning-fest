@@ -1,0 +1,166 @@
+{
+    "menu": [
+        {
+            "id": 1,
+            "name": "Burger",
+            "price": 120
+        },
+        {
+            "id": 2,
+            "name": "Pizza",
+            "price": 250
+        },
+        {
+            "id": 3,
+            "name": "French Fries",
+            "price": 80
+        },
+        {
+            "id": 4,
+            "name": "Chicken Biryani",
+            "price": 180
+        },
+        {
+            "id": 5,
+            "name": "Soft Drink",
+            "price": 60
+        },
+        {
+            "id": 6,
+            "name": "Ice Cream",
+            "price": 90
+        }
+    ],
+    "orders": [
+        {
+            "order_id": 1,
+            "items": [
+                {
+                    "menu_id": 1,
+                    "quantity": 2
+                },
+                {
+                    "menu_id": 5,
+                    "quantity": 2
+                }
+            ]
+        },
+        {
+            "order_id": 2,
+            "items": [
+                {
+                    "menu_id": 2,
+                    "quantity": 1
+                },
+                {
+                    "menu_id": 3,
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "order_id": 3,
+            "items": [
+                {
+                    "menu_id": 4,
+                    "quantity": 2
+                }
+            ]
+        },
+        {
+            "order_id": 4,
+            "items": [
+                {
+                    "menu_id": 1,
+                    "quantity": 1
+                },
+                {
+                    "menu_id": 3,
+                    "quantity": 2
+                }
+            ]
+        },
+        {
+            "order_id": 5,
+            "items": [
+                {
+                    "menu_id": 2,
+                    "quantity": 2
+                },
+                {
+                    "menu_id": 5,
+                    "quantity": 2
+                }
+            ]
+        },
+        {
+            "order_id": 6,
+            "items": [
+                {
+                    "menu_id": 4,
+                    "quantity": 1
+                },
+                {
+                    "menu_id": 6,
+                    "quantity": 2
+                }
+            ]
+        },
+        {
+            "order_id": 7,
+            "items": [
+                {
+                    "menu_id": 1,
+                    "quantity": 3
+                },
+                {
+                    "menu_id": 3,
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "order_id": 8,
+            "items": [
+                {
+                    "menu_id": 2,
+                    "quantity": 1
+                },
+                {
+                    "menu_id": 4,
+                    "quantity": 1
+                },
+                {
+                    "menu_id": 6,
+                    "quantity": 1
+                }
+            ]
+        },
+        {
+            "order_id": 9,
+            "items": [
+                {
+                    "menu_id": 3,
+                    "quantity": 2
+                },
+                {
+                    "menu_id": 5,
+                    "quantity": 3
+                }
+            ]
+        },
+        {
+            "order_id": 10,
+            "items": [
+                {
+                    "menu_id": 2,
+                    "quantity": 2
+                },
+                {
+                    "menu_id": 4,
+                    "quantity": 2
+                }
+            ]
+        }
+    ]
+}

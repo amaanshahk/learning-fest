@@ -1,0 +1,6 @@
+Daily Sales Summary
+-------------------
+Total Orders: 10
+Total Revenue: ₹4670.0
+Highest-Value Order: Order 10
+Highest Order Value: ₹814.0
