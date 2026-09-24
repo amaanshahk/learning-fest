@@ -1,0 +1,57 @@
+-Summary-
+Applied; 3
+Interview: 2
+Selected: 3
+Rejected: 2
+
+-Applications-
+Company: TCS
+Role: Software Developer
+Status: Selected
+Application Date: 2026-09-01
+
+Company: Infosys
+Role: Python Developer
+Status: Interview
+Application Date: 2026-09-03
+
+Company: Wipro
+Role: Web Developer
+Status: Rejected
+Application Date: 2026-08-28
+
+Company: Accenture
+Role: Software Engineer
+Status: Selected
+Application Date: 2026-08-25
+
+Company: Zoho
+Role: Backend Developer
+Status: Applied
+Application Date: 2026-09-05
+
+Company: IBM
+Role: Data Analyst
+Status: Interview
+Application Date: 2026-09-07
+
+Company: Cognizant
+Role: Full Stack Developer
+Status: Applied
+Application Date: 2026-09-08
+
+Company: Microsoft
+Role: Software Engineer
+Status: Rejected
+Application Date: 2026-08-20
+
+Company: Amazon
+Role: Cloud Engineer
+Status: Selected
+Application Date: 2026-08-18
+
+Company: Deloitte
+Role: Technology Analyst
+Status: Applied
+Application Date: 2026-09-10
+
