@@ -29,12 +29,20 @@ def update_status():
     company = input("Enter company name: ")
     role = input("Enter role: ")
     status = input("Enter status: ")
+
     while status not in ["Applied", "Interview", "Selected", "Rejected"]:
         print("Invalid status.")
         status = input("Enter status: ")
+
+    found = False
+
     for i in Applications:
         if i["company"] == company and i["role"] == role:
             i["status"] = status
+            found = True
+
+    if not found:
+        print("Application not found.")
 
 def summary():
     applied = 0
