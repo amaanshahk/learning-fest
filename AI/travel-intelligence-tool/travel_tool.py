@@ -17,22 +17,30 @@ def get_country_data():
         if rcode == 404: print("Country not found.")
         else: 
             response_data = response.json()
+            if not isinstance(response_data, list):
+                print("Unexpected response from API.")
+                return
+            found = False
             for i in response_data:
                 if i["name"] == cname:
+                    found = True
                     languages = []
-                    for j in i["languages"]:
-                        languages.append(j["name"])
+                    for j in i.get("languages", []):
+                        languages.append(j.get("name", "Not available"))
                     currencies = []
-                    for j in i["currencies"]:
-                        currencies.append(j["name"])
-                    country_data={ "capital" : i["capital"],
-                    "population": i["population"],
-                    "region": i["region"],
-                    "borders": i["borders"],
+                    for j in i.get("currencies", []):
+                        currencies.append(j.get("name", "Not available"))
+                    country_data={ "capital" : i.get("capital", "Not available"),
+                    "population": i.get("population", "Not available"),
+                    "region": i.get("region","Not Available"),
+                    "borders": i.get("borders","Not Available"),
                     "languages": languages,
                     "currencies": currencies}
-            print(country_data)
-    except:
-        print("Error!")
+            if found:
+                print(country_data)
+            else:
+                print("Country not found.")
+    except requests.exceptions.RequestException:
+        print("Network error. Please check your internet connection.")
 
 get_country_data()
