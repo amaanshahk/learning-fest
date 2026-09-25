@@ -30,7 +30,7 @@ def get_country_data():
             found = False
 
             for i in response_data:
-                if i["name"] == cname:
+                if i["name"].lower() == cname.lower():
                     found = True
 
                     languages = []
