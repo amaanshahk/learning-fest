@@ -37,7 +37,13 @@ def get_country_data():
                     "languages": languages,
                     "currencies": currencies}
             if found:
-                print(country_data)
+                print(f"\nCountry: {cname}")
+                print(f"Capital: {country_data['capital']}")
+                print(f"Population: {country_data['population']}")
+                print(f"Region: {country_data['region']}")
+                print(f"Borders: {country_data['borders']}")
+                print(f"Languages: {country_data['languages']}")
+                print(f"Currencies: {country_data['currencies']}")
             else:
                 print("Country not found.")
     except requests.exceptions.RequestException:
