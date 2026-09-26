@@ -1,0 +1,26 @@
+[
+    {
+        "id": 1,
+        "message": "I was charged twice for my subscription this month. Please check the duplicate payment and refund the extra charge."
+    },
+    {
+        "id": 2,
+        "message": "The application crashes every time I try to upload a profile picture. I have tried restarting it but the problem continues."
+    },
+    {
+        "id": 3,
+        "message": "I forgot my password and cannot log into my account. How can I reset it?"
+    },
+    {
+        "id": 4,
+        "message": "Can you tell me whether you offer a student discount for your premium plan?"
+    },
+    {
+        "id": 5,
+        "message": "My account has been charged $200 for a service I never purchased. I need this investigated immediately."
+    },
+    {
+        "id": 6,
+        "message": "The website has been loading very slowly since yesterday. Pages sometimes take more than a minute to open."
+    }
+]

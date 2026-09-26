@@ -1,0 +1,32 @@
+[
+    {
+        "category": "billing",
+        "urgency": "high",
+        "suggested_action": "Investigate the duplicate charge and process a refund for the extra amount."
+    },
+    {
+        "category": "technical",
+        "urgency": "high",
+        "suggested_action": "Please try clearing the app cache and reinstalling the latest version. If the issue persists, restart your device, check for network connectivity, and collect the crash logs (via the app's diagnostic option). Then contact our technical support team with the logs for further assistance."
+    },
+    {
+        "category": "account",
+        "urgency": "high",
+        "suggested_action": "To reset your password, click the 'Forgot Password' link on the login page, enter your email address, and follow the instructions sent to your inbox. If you do not receive the email within a few minutes, check your spam folder. If the issue persists, contact our support team for further assistance."
+    },
+    {
+        "category": "billing",
+        "urgency": "low",
+        "suggested_action": "Provide information about the student discount policy and how to apply it."
+    },
+    {
+        "category": "billing",
+        "urgency": "high",
+        "suggested_action": "Investigate the unauthorized charge and issue a refund."
+    },
+    {
+        "category": "technical",
+        "urgency": "medium",
+        "suggested_action": "Investigate server performance, check load, review database queries, enable caching, and monitor response times."
+    }
+]
