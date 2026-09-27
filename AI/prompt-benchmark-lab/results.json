@@ -1,0 +1,194 @@
+[
+    {
+        "ticket": {
+            "id": 1,
+            "message": "I was charged twice for my monthly subscription. Please refund the duplicate charge."
+        },
+        "prompt": "prompt1",
+        "response": "**Ticket Classification**  \n- **Category:** Billing  \n- **Urgency:** High  \n\n**Suggested Resolution**\n\n1. **Acknowledge & Apologize**  \n   - Respond promptly: \u201cI\u2019m sorry you\u2019ve been double\u2011charged. Let\u2019s get this sorted right away.\u201d\n\n2. **Verify the Charge**  \n   - Pull the customer\u2019s payment history.  \n   - Confirm that two identical transactions appear for the same billing period.  \n   - Check that no other active subscription is causing the duplicate.\n\n3. **Process Refund**  \n   - Issue a full refund for the duplicate charge as soon as possible.  \n   - Ensure the refund is sent to the same payment method used for the original transaction.\n\n4. **Prevent Recurrence**  \n   - Inspect the customer\u2019s account for duplicate subscription entries or auto\u2011renew settings.  \n   - If needed, merge or remove the duplicate subscription record.  \n   - Notify the customer of any changes made.\n\n5. **Confirm & Follow\u2011Up**  \n   - Send a confirmation email once the refund is processed.  \n   - Include a brief explanation of what caused the duplicate and what steps were taken.  \n   - Offer a small goodwill gesture (e.g., a 10% discount on the next month) if the policy allows.\n\n6. **Close the Ticket**  \n   - Ensure the customer confirms the refund and satisfaction.  \n   - Mark the ticket as resolved in the system.\n\n**Quick\u2011Fix Template**  \n> *Hi [Name],*  \n> *I\u2019ve reviewed your account and confirmed that a duplicate charge was made on [date]. I\u2019ve issued a full refund to the original payment method, which should post within 5\u20137 business days. We\u2019ve also cleaned up the duplicate subscription entry to prevent this from happening again. Please let me know if you see the refund or if there\u2019s anything else I can help with.*  \n> *Thanks for bringing this to our attention, and again, we apologize for the inconvenience.*  \n> *Best, [Support Team]*"
+    },
+    {
+        "ticket": {
+            "id": 1,
+            "message": "I was charged twice for my monthly subscription. Please refund the duplicate charge."
+        },
+        "prompt": "prompt2",
+        "response": "Category: billing, Urgency: high, Suggested action: Apologize for the inconvenience, request the customer\u2019s account ID and the duplicate transaction reference (e.g., receipt or bank statement screenshot). Verify the charge in the billing system, confirm it is indeed a duplicate, then process a full refund for the second charge immediately. Update the customer\u2019s subscription status to ensure no double billing in the future, and send a confirmation email with the refund details and the new billing cycle date. If the refund cannot be processed instantly, explain the expected timeline and offer a temporary credit or discount for the next month."
+    },
+    {
+        "ticket": {
+            "id": 1,
+            "message": "I was charged twice for my monthly subscription. Please refund the duplicate charge."
+        },
+        "prompt": "prompt3",
+        "response": "{\"category\":\"billing\",\"urgency\":\"high\",\"suggested_action\":\"Verify payment records, issue a refund for the duplicate charge, and notify the customer of the resolution.\"}"
+    },
+    {
+        "ticket": {
+            "id": 2,
+            "message": "The application crashes every time I try to upload a PDF. I have restarted my computer but it still happens."
+        },
+        "prompt": "prompt1",
+        "response": "**Ticket Classification**\n\n| Category | Urgency | Suggested Solution |\n|----------|---------|--------------------|\n| Technical | **High** | 1. **Recreate the Crash** \u2013 Try uploading a different PDF (small file, no images) to confirm it\u2019s not file\u2011specific.<br>2. **Check Error Logs** \u2013 Open the application\u2019s log viewer or look in `C:\\ProgramData\\YourApp\\Logs` (Windows) / `~/Library/Logs/YourApp/` (macOS) for any stack trace or error message that appears when the crash occurs.<br>3. **Update the App** \u2013 Ensure you\u2019re running the latest version. Go to *Help \u2192 Check for Updates* and install any available patches. <br>4. **Clear Cache / Temp Files** \u2013 Sometimes corrupted temp files cause crashes. Delete the app\u2019s cache folder (usually in `AppData\\Local\\YourApp` or `~/Library/Caches/YourApp`).<br>5. **Reinstall** \u2013 If the crash persists, uninstall the application completely, then reinstall the latest installer from the official website.<br>6. **Report the Bug** \u2013 If after the above steps the problem remains, capture the crash log and send it to the support team via the \u201cSend Feedback\u201d button or email support@example.com with the log attached. Provide details: OS version, app version, PDF file size/format, steps to reproduce, and any error message you see. |\n\n**Why High Urgency?**  \nA crash that blocks the primary upload functionality prevents users from completing their core task, causing productivity loss and potentially data loss. Quick resolution is essential.\n\n**Follow\u2011Up**  \nAfter you try the steps, let us know which ones worked or if the crash still happens. If it persists, we\u2019ll open a ticket with our engineering team for a deeper investigation."
+    },
+    {
+        "ticket": {
+            "id": 2,
+            "message": "The application crashes every time I try to upload a PDF. I have restarted my computer but it still happens."
+        },
+        "prompt": "prompt2",
+        "response": "Category: technical, Urgency: high, Suggested action: Ask the user for the operating system, app version, and any error message or log that appears when the crash occurs. Verify the PDF\u2019s file size and format (e.g., embedded fonts, encryption). Recommend clearing the app\u2019s cache or reinstalling the application. If the crash persists, capture a crash report or screenshot and forward it to the technical support team for further analysis."
+    },
+    {
+        "ticket": {
+            "id": 2,
+            "message": "The application crashes every time I try to upload a PDF. I have restarted my computer but it still happens."
+        },
+        "prompt": "prompt3",
+        "response": "{\"category\":\"technical\",\"urgency\":\"high\",\"suggested_action\":\"Check for app updates or reinstall; if the problem persists, provide the error logs to support.\"}"
+    },
+    {
+        "ticket": {
+            "id": 3,
+            "message": "I forgot my password and cannot log into my account. How can I reset it?"
+        },
+        "prompt": "prompt1",
+        "response": "**Ticket Classification**  \n- **Category:** Account  \n- **Urgency:** High  \n\n**Suggested Resolution**\n\n1. **Direct the user to the \u201cForgot Password\u201d page**  \n   - Provide the link: `https://yourcompany.com/reset-password`  \n   - Explain that they will receive a one\u2011time reset link in their email.\n\n2. **Email Confirmation**  \n   - Instruct them to check spam/junk folders if the email isn\u2019t visible.  \n   - If no email appears within 5\u202fminutes, advise them to click the \u201cResend\u201d button on the reset page.\n\n3. **Reset Process**  \n   - Once the user clicks the link, they\u2019ll be asked to enter a new password (minimum 8 characters, mix of uppercase, lowercase, number, and symbol).  \n   - After submission, confirm that the password has been updated.\n\n4. **Login Confirmation**  \n   - Ask the user to log in with the new password to verify success.  \n   - If login still fails, suggest clearing browser cache or trying a different browser.\n\n5. **Security Check**  \n   - If they suspect unauthorized access, recommend enabling two\u2011factor authentication (2FA) after resetting the password.\n\n6. **Support Follow\u2011Up**  \n   - Offer to walk them through the steps via a phone call or chat if they encounter any issues.\n\n**Follow\u2011up Tips**  \n- Keep the communication concise and friendly.  \n- Encourage the user to keep their password secure and to change it periodically.  \n- If the issue persists, log a ticket for deeper investigation (e.g., account lockout or backend error)."
+    },
+    {
+        "ticket": {
+            "id": 3,
+            "message": "I forgot my password and cannot log into my account. How can I reset it?"
+        },
+        "prompt": "prompt2",
+        "response": "Category: account  \nUrgency: medium  \nSuggested action: Direct the user to the \u201cForgot password?\u201d link on the login page, explain that a password\u2011reset email will be sent, and advise checking their spam folder if not received. If the email doesn\u2019t arrive, ask for the registered email address and confirm they can receive emails. Offer to resend the link or provide a temporary login code if necessary."
+    },
+    {
+        "ticket": {
+            "id": 3,
+            "message": "I forgot my password and cannot log into my account. How can I reset it?"
+        },
+        "prompt": "prompt3",
+        "response": "{\"category\":\"account\",\"urgency\":\"medium\",\"suggested_action\":\"Guide the user to the password reset page: instruct them to click 'Forgot password', enter their email, and follow the instructions sent to their inbox.\"}"
+    },
+    {
+        "ticket": {
+            "id": 4,
+            "message": "Do you offer a student discount for the premium plan?"
+        },
+        "prompt": "prompt1",
+        "response": "**Ticket Classification**  \n- **Category:** Billing  \n- **Urgency:** Low  \n\n**Suggested Response**  \n> Hi [Customer Name],  \n>  \n> Thank you for reaching out! Yes, we do offer a special discount for students on our Premium plan.  \n>  \n> **How to Qualify**  \n> 1. Provide a valid school email address or a student ID photo.  \n> 2. Verify your enrollment through the \u201cStudent Verification\u201d tab in your account settings.  \n> 3. Once verified, the discount will automatically apply to your next billing cycle.  \n>  \n> **Current Rate**  \n> \u2022 Premium Plan: $49.99/month (regular) \u2192 $34.99/month (student discount)  \n>  \n> If you have any trouble with the verification process or need assistance setting up, feel free to let us know \u2013 we\u2019re happy to help.  \n>  \n> Best,  \n> [Support Team]"
+    },
+    {
+        "ticket": {
+            "id": 4,
+            "message": "Do you offer a student discount for the premium plan?"
+        },
+        "prompt": "prompt2",
+        "response": "Category: billing  \nUrgency: low  \nSuggested action: Provide information about any student discount program (or clarify that none is currently offered), explain how students can verify eligibility and apply the discount during checkout, and offer to send a confirmation email or direct link to the pricing page."
+    },
+    {
+        "ticket": {
+            "id": 4,
+            "message": "Do you offer a student discount for the premium plan?"
+        },
+        "prompt": "prompt3",
+        "response": "{\"category\":\"billing\",\"urgency\":\"low\",\"suggested_action\":\"Explain whether a student discount exists for the premium plan and describe the eligibility requirements and how to apply.\"}"
+    },
+    {
+        "ticket": {
+            "id": 5,
+            "message": "Someone appears to have accessed my account and changed my email address. I can no longer log in."
+        },
+        "prompt": "prompt1",
+        "response": "**Ticket Classification:**  \n- **Type:** *Account* (security & access)  \n- **Urgency:** *High*\n\n**Suggested next steps:**  \n1. **Immediate password reset** \u2013 If you can still access the login page, use the \u201cForgot password?\u201d link and follow the instructions.  \n2. **Verify identity** \u2013 The support team will likely need to confirm your identity (e.g., last payment info, security questions, or a verification code sent to your phone).  \n3. **Secure your account** \u2013 Once you regain access, change your password to a strong, unique one, enable two\u2011factor authentication, and review recent activity for any unauthorized changes.  \n4. **Check email settings** \u2013 Confirm that your recovery email and phone number are correct and update them if necessary.  \n5. **Contact support directly** \u2013 If you\u2019re unable to reset your password or the account has been locked, call our 24/7 account\u2011security line or submit a ticket with the \u201cSecurity Breach\u201d priority. Provide the original email address, account name, and any relevant transaction IDs to expedite verification.\n\n**Follow\u2011up:**  \nAfter you regain access, let us know if any other changes were made or if you notice suspicious activity so we can audit the account and apply any additional protective measures."
+    },
+    {
+        "ticket": {
+            "id": 5,
+            "message": "Someone appears to have accessed my account and changed my email address. I can no longer log in."
+        },
+        "prompt": "prompt2",
+        "response": "Category: account  \nUrgency: high  \nSuggested action: Verify the customer\u2019s identity (e.g., request recent login records, security questions, or a government\u2011issued ID). Explain that the email change was unauthorized, lock the account, and walk them through a secure password reset. Offer to reset the email to the original address and notify the user of any suspicious activity. Advise them to review account security settings, enable two\u2011factor authentication, and monitor for further anomalies. If needed, place the account on hold until identity is confirmed, and provide instructions for contacting the help desk by phone or secure chat for immediate assistance."
+    },
+    {
+        "ticket": {
+            "id": 5,
+            "message": "Someone appears to have accessed my account and changed my email address. I can no longer log in."
+        },
+        "prompt": "prompt3",
+        "response": "{\"category\":\"account\",\"urgency\":\"high\",\"suggested_action\":\"Assist with account recovery by verifying the user's identity and resetting the email address.\"}"
+    },
+    {
+        "ticket": {
+            "id": 6,
+            "message": "The website is extremely slow today and pages are taking more than 30 seconds to load."
+        },
+        "prompt": "prompt1",
+        "response": "**Ticket Classification**: **Technical**  \n**Urgency**: **High** (site performance impact is critical for user experience and revenue)\n\n**Suggested Solution**  \n1. **Immediate Checks**  \n   - Verify server CPU, memory, and disk I/O usage \u2013 look for spikes or bottlenecks.  \n   - Review web\u2011server (nginx/Apache) logs for error rates or timeout messages.  \n   - Check database connection pool health and query performance.  \n\n2. **Performance Monitoring**  \n   - Enable real\u2011time monitoring (e.g., New Relic, Datadog) to capture latency, response times, and error rates.  \n   - Use a site\u2011speed test (Pingdom, GTmetrix) to identify slow assets and compare with historical data.  \n\n3. **Scaling Actions**  \n   - If load is high, spin up additional web\u2011server instances or scale up current instance(s).  \n   - Consider adding a CDN or caching layer (e.g., Cloudflare, Varnish) to offload static content.  \n\n4. **Code & Asset Optimization**  \n   - Identify slow database queries (use EXPLAIN, add indexes).  \n   - Minify/concatenate CSS/JS, enable gzip/ Brotli compression.  \n   - Ensure images are appropriately compressed and served at correct dimensions.  \n\n5. **Rollback Recent Changes**  \n   - If a recent deployment coincides with the slowdown, consider rolling back to a known\u2011good version while investigating.  \n\n6. **Communication**  \n   - Notify stakeholders (product, marketing) that the issue is being investigated.  \n   - Provide an ETA for resolution and set up a status channel (e.g., Slack #website-status).\n\n7. **Post\u2011Resolution Review**  \n   - Conduct a root\u2011cause analysis and update incident playbooks.  \n   - Implement automated alerts for response time thresholds.  \n\nFollow these steps to get the site back to acceptable performance quickly while preventing recurrence."
+    },
+    {
+        "ticket": {
+            "id": 6,
+            "message": "The website is extremely slow today and pages are taking more than 30 seconds to load."
+        },
+        "prompt": "prompt2",
+        "response": "Category: technical  \nUrgency: medium  \n\nSuggested action:  \n1. Ask the customer to provide the approximate time of day the slowdown occurs and whether it affects all pages or just specific sections.  \n2. Request basic diagnostics:  \n   - Browser and OS (e.g., Chrome 118 on Windows 10).  \n   - Whether the issue persists on mobile devices or only desktop.  \n3. Check server\u2011side metrics:  \n   - CPU/memory usage and network latency on the web servers at the reported times.  \n   - Recent deployments, database query performance, CDN cache status.  \n4. Run a quick performance test (e.g., Lighthouse or WebPageTest) from the customer\u2019s location to capture load times and identify bottlenecks.  \n5. If a sudden spike is detected, roll back the latest deployment or temporarily scale resources (e.g., add a CDN edge node).  \n6. Communicate findings and next steps to the customer, offering a provisional workaround such as disabling heavy scripts or clearing local cache while the technical team investigates further."
+    },
+    {
+        "ticket": {
+            "id": 6,
+            "message": "The website is extremely slow today and pages are taking more than 30 seconds to load."
+        },
+        "prompt": "prompt3",
+        "response": "{\"category\":\"technical\",\"urgency\":\"high\",\"suggested_action\":\"Investigate server performance and load balancer logs to identify bottlenecks causing high latency.\"}"
+    },
+    {
+        "ticket": {
+            "id": 7,
+            "message": "I was charged for a subscription I don't remember purchasing, and now I can't access the account associated with the payment."
+        },
+        "prompt": "prompt1",
+        "response": "**Ticket Classification**  \n- **Primary Category:** **Billing** (unauthorized subscription charge)  \n- **Secondary Category:** **Account** (access issue)\n\n**Urgency Level:** **High**  \n- The user cannot access the account and has been charged for a subscription they do not recall. This indicates a potential security issue and a direct financial impact.  \n\n**Suggested Solution**\n\n1. **Verify the Charge**  \n   - Prompt the user to provide the date, amount, and payment method of the charge.  \n   - Check the order history in the billing system for a matching transaction.  \n\n2. **Secure the Account**  \n   - Ask the user to reset their password immediately.  \n   - If they cannot access the account, start a password\u2011reset process via the \u201cForgot Password\u201d link and confirm identity using their registered email or phone number.  \n\n3. **Investigate the Subscription**  \n   - Look up the subscription ID associated with the charge.  \n   - Determine whether it was created automatically (e.g., a trial conversion) or if it matches a past purchase.  \n\n4. **Initiate Refund & Cancellation**  \n   - If the subscription is indeed unauthorized or accidental, process a full refund and cancel the recurring payment.  \n   - Send a confirmation email with details of the refund, cancellation, and steps to re\u2011enable access if desired.  \n\n5. **Provide Follow\u2011Up**  \n   - Offer to set up a security audit: enable two\u2011factor authentication (2FA) and review recent login activity.  \n   - Encourage the user to update their payment information only after confirming the account is secured.  \n\n6. **Escalate if Needed**  \n   - If the user claims no record of any transaction or suspects fraud, forward the ticket to the fraud\u2011prevention team for a deeper audit.  \n\n**Next Steps for the Agent**  \n- Use the ticketing system to flag the case as \u201cBilling \u2013 High Urgency.\u201d  \n- Attach any relevant screenshots or logs.  \n- Assign the ticket to the billing team or a senior support agent who can process refunds promptly.  \n\nBy addressing the billing concern first and securing the user\u2019s account, we mitigate the risk of further unauthorized activity and restore the user\u2019s trust."
+    },
+    {
+        "ticket": {
+            "id": 7,
+            "message": "I was charged for a subscription I don't remember purchasing, and now I can't access the account associated with the payment."
+        },
+        "prompt": "prompt2",
+        "response": "Category: billing  \nUrgency: high  \nSuggested action: Verify the user\u2019s identity and review the transaction history to confirm the disputed charge. If the charge is unauthorized, cancel the subscription, issue a refund, and restore account access. Provide clear instructions for how the user can confirm their identity (e.g., security questions, verification email) and keep them informed of the steps being taken. If necessary, involve the billing/finance team for the refund and re\u2011enable the account once the issue is resolved."
+    },
+    {
+        "ticket": {
+            "id": 7,
+            "message": "I was charged for a subscription I don't remember purchasing, and now I can't access the account associated with the payment."
+        },
+        "prompt": "prompt3",
+        "response": "{\"category\":\"billing\",\"urgency\":\"high\",\"suggested_action\":\"Verify the disputed transaction and confirm account ownership. Reset the user\u2019s password and provide temporary access while investigating the unauthorized charge.\"}"
+    },
+    {
+        "ticket": {
+            "id": 8,
+            "message": "It doesn't work."
+        },
+        "prompt": "prompt1",
+        "response": "**Ticket classification**\n\n- **Category:** Technical  \n- **Urgency:** Medium  \n\n**Suggested next steps for the support agent**\n\n1. **Request more context**  \n   - Ask the customer to describe what \u201cdoesn't work\u201d means: is it a feature, a page, a process, or the entire service?  \n   - Inquire about any recent changes (e.g., updates, new integrations, network changes).  \n   - Ask for any error messages, screenshots, or logs that they can share.\n\n2. **Basic troubleshooting**  \n   - Verify that the customer is on the latest version of the software or using a supported browser.  \n   - Suggest clearing the browser cache or trying a different browser/device.  \n   - Check the status page or service health dashboard for known outages.\n\n3. **Escalate if needed**  \n   - If the issue persists after basic checks, forward the ticket to the engineering team with all gathered details.  \n   - Provide an estimated turnaround time and keep the customer updated.\n\n4. **Close with follow\u2011up**  \n   - Let the customer know you\u2019re on it and will reach out with a solution or additional questions shortly.  \n\nThis approach gathers enough information to pinpoint the problem, offers immediate low\u2011effort fixes, and escalates efficiently if the issue is deeper."
+    },
+    {
+        "ticket": {
+            "id": 8,
+            "message": "It doesn't work."
+        },
+        "prompt": "prompt2",
+        "response": "Category: general  \nUrgency: medium  \n\nSuggested action: Gently ask the customer for more context\u2014what specifically isn\u2019t working, which part of the app or service they\u2019re trying to use, the steps they\u2019ve taken, and any error messages or screenshots. Once you have that information you can determine whether it\u2019s a technical glitch, an account\u2011related issue, or something else, and provide the appropriate next steps."
+    },
+    {
+        "ticket": {
+            "id": 8,
+            "message": "It doesn't work."
+        },
+        "prompt": "prompt3",
+        "response": "{\"category\":\"technical\",\"urgency\":\"high\",\"suggested_action\":\"Verify system status, check logs, and request the user to provide error messages or screenshots for further diagnostics.\"}"
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "prompt1": "Classify the support ticket as billing, technical, account, or general. Assign low, medium, or high urgency and suggest a solution."
+    },
+    {
+        "prompt2": "Classify the support ticket as billing, technical, account, or general, assign low, medium, or high urgency, and suggest a solution.\n\nExample 1:\nInput: The app crashes every time I try to upload a file.\nOutput: Category: technical, Urgency: high, Suggested action: Ask for the device, operating system, app version, file type, and error details, then provide troubleshooting steps or escalate to technical support.\n\nExample 2:\nInput: Is customer support available on weekends?\nOutput: Category: general, Urgency: low, Suggested action: Provide the support hours and available contact methods.\n\nClassify the next support ticket using the same format and approach as the examples."
+    },
+    {
+        "prompt3": "Assign the support ticket to one of these categories: billing, technical, account, or general. Assign one of these urgency levels: low, medium, or high. Provide a suggested action based only on the information in the ticket. Do not invent or assume information that is not provided. Keep the suggested action concise and relevant. Return only valid JSON with exactly these three fields: category, urgency, suggested_action. Do not include markdown, explanations, metadata, or any other text. If the ticket is ambiguous, make the most reasonable classification based only on the available information while following the allowed categories and urgency levels."
+    }
+]

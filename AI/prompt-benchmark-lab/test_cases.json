@@ -1,0 +1,34 @@
+[
+    {
+        "id": 1,
+        "message": "I was charged twice for my monthly subscription. Please refund the duplicate charge."
+    },
+    {
+        "id": 2,
+        "message": "The application crashes every time I try to upload a PDF. I have restarted my computer but it still happens."
+    },
+    {
+        "id": 3,
+        "message": "I forgot my password and cannot log into my account. How can I reset it?"
+    },
+    {
+        "id": 4,
+        "message": "Do you offer a student discount for the premium plan?"
+    },
+    {
+        "id": 5,
+        "message": "Someone appears to have accessed my account and changed my email address. I can no longer log in."
+    },
+    {
+        "id": 6,
+        "message": "The website is extremely slow today and pages are taking more than 30 seconds to load."
+    },
+    {
+        "id": 7,
+        "message": "I was charged for a subscription I don't remember purchasing, and now I can't access the account associated with the payment."
+    },
+    {
+        "id": 8,
+        "message": "It doesn't work."
+    }
+]

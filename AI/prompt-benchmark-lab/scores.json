@@ -1,0 +1,194 @@
+[
+    {
+        "ticket": 1,
+        "prompt1": {
+            "correctness": 2,
+            "format_compliance": 2,
+            "hallucination": 0,
+            "consistency": 2,
+            "total": 6
+        },
+        "prompt2": {
+            "correctness": 2,
+            "format_compliance": 2,
+            "hallucination": 1,
+            "consistency": 2,
+            "total": 7
+        },
+        "prompt3": {
+            "correctness": 2,
+            "format_compliance": 2,
+            "hallucination": 2,
+            "consistency": 2,
+            "total": 8
+        }
+    },
+    {
+        "ticket": 2,
+        "prompt1": {
+            "correctness": 2,
+            "format_compliance": 2,
+            "hallucination": 1,
+            "consistency": 2,
+            "total": 7
+        },
+        "prompt2": {
+            "correctness": 2,
+            "format_compliance": 2,
+            "hallucination": 2,
+            "consistency": 2,
+            "total": 8
+        },
+        "prompt3": {
+            "correctness": 2,
+            "format_compliance": 2,
+            "hallucination": 2,
+            "consistency": 2,
+            "total": 8
+        }
+    },
+    {
+        "ticket": 3,
+        "prompt1": {
+            "correctness": 2,
+            "format_compliance": 2,
+            "hallucination": 0,
+            "consistency": 2,
+            "total": 6
+        },
+        "prompt2": {
+            "correctness": 2,
+            "format_compliance": 2,
+            "hallucination": 1,
+            "consistency": 2,
+            "total": 7
+        },
+        "prompt3": {
+            "correctness": 2,
+            "format_compliance": 2,
+            "hallucination": 2,
+            "consistency": 2,
+            "total": 8
+        }
+    },
+    {
+        "ticket": 4,
+        "prompt1": {
+            "correctness": 1,
+            "format_compliance": 2,
+            "hallucination": 0,
+            "consistency": 2,
+            "total": 5
+        },
+        "prompt2": {
+            "correctness": 2,
+            "format_compliance": 2,
+            "hallucination": 2,
+            "consistency": 2,
+            "total": 8
+        },
+        "prompt3": {
+            "correctness": 2,
+            "format_compliance": 2,
+            "hallucination": 2,
+            "consistency": 2,
+            "total": 8
+        }
+    },
+    {
+        "ticket": 5,
+        "prompt1": {
+            "correctness": 2,
+            "format_compliance": 2,
+            "hallucination": 0,
+            "consistency": 2,
+            "total": 6
+        },
+        "prompt2": {
+            "correctness": 2,
+            "format_compliance": 2,
+            "hallucination": 1,
+            "consistency": 2,
+            "total": 7
+        },
+        "prompt3": {
+            "correctness": 2,
+            "format_compliance": 2,
+            "hallucination": 2,
+            "consistency": 2,
+            "total": 8
+        }
+    },
+    {
+        "ticket": 6,
+        "prompt1": {
+            "correctness": 2,
+            "format_compliance": 2,
+            "hallucination": 1,
+            "consistency": 2,
+            "total": 7
+        },
+        "prompt2": {
+            "correctness": 2,
+            "format_compliance": 2,
+            "hallucination": 1,
+            "consistency": 2,
+            "total": 7
+        },
+        "prompt3": {
+            "correctness": 2,
+            "format_compliance": 2,
+            "hallucination": 2,
+            "consistency": 2,
+            "total": 8
+        }
+    },
+    {
+        "ticket": 7,
+        "prompt1": {
+            "correctness": 2,
+            "format_compliance": 2,
+            "hallucination": 0,
+            "consistency": 2,
+            "total": 6
+        },
+        "prompt2": {
+            "correctness": 2,
+            "format_compliance": 2,
+            "hallucination": 1,
+            "consistency": 2,
+            "total": 7
+        },
+        "prompt3": {
+            "correctness": 2,
+            "format_compliance": 2,
+            "hallucination": 1,
+            "consistency": 2,
+            "total": 7
+        }
+    },
+    {
+        "ticket": 8,
+        "prompt1": {
+            "correctness": 1,
+            "format_compliance": 2,
+            "hallucination": 1,
+            "consistency": 2,
+            "total": 6
+        },
+        "prompt2": {
+            "correctness": 2,
+            "format_compliance": 2,
+            "hallucination": 2,
+            "consistency": 2,
+            "total": 8
+        },
+        "prompt3": {
+            "correctness": 1,
+            "format_compliance": 2,
+            "hallucination": 2,
+            "consistency": 1,
+            "total": 6
+        }
+    }
+]
