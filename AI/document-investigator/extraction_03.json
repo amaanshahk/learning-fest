@@ -1,0 +1,128 @@
+{
+    "facts": [
+        {
+            "topic": "Project start date",
+            "claim": "Project began in January 2024."
+        },
+        {
+            "topic": "Original completion date",
+            "claim": "Original completion scheduled for December 2024."
+        },
+        {
+            "topic": "Initial team composition",
+            "claim": "Initial team consisted of 12 developers, 3 designers, and 2 project managers."
+        },
+        {
+            "topic": "Prototype completion",
+            "claim": "First internal prototype completed in April 2024."
+        },
+        {
+            "topic": "Beta release schedule",
+            "claim": "Beta release scheduled for September 2024."
+        },
+        {
+            "topic": "Beta release actual",
+            "claim": "Project update October 2024 states beta released in August 2024."
+        },
+        {
+            "topic": "Beta release delay",
+            "claim": "Internal note says beta release delayed until October 2024 due to database performance problems."
+        },
+        {
+            "topic": "January staffing",
+            "claim": "January staffing report lists 17 members: 12 developers, 3 designers, 2 project managers."
+        },
+        {
+            "topic": "June staffing",
+            "claim": "June report states team grew to 21 members after four engineers and two testers joined."
+        },
+        {
+            "topic": "Peak team size",
+            "claim": "Management summary states team consisted of 18 people at its peak."
+        },
+        {
+            "topic": "November staffing",
+            "claim": "November personnel report lists 20 active members."
+        },
+        {
+            "topic": "Approved budget",
+            "claim": "Approved project budget was $480,000."
+        },
+        {
+            "topic": "Expenditure by end August",
+            "claim": "Finance department recorded expenditure of $310,000 by end of August 2024."
+        },
+        {
+            "topic": "Spending September",
+            "claim": "September financial summary reports total spending of $365,000."
+        },
+        {
+            "topic": "Spending by end July",
+            "claim": "Annual project review states project had spent $410,000 by end of July 2024."
+        },
+        {
+            "topic": "Estimated final cost",
+            "claim": "Annual review estimates final project cost will be approximately $525,000."
+        },
+        {
+            "topic": "First performance test",
+            "claim": "First performance test reported average ticket-processing time of 4.2 seconds."
+        },
+        {
+            "topic": "July performance test",
+            "claim": "July engineering report recorded average processing time of 3.8 seconds."
+        },
+        {
+            "topic": "August performance test",
+            "claim": "August report claimed average processing time fell to 2.1 seconds after database optimization."
+        },
+        {
+            "topic": "September survey",
+            "claim": "September customer-support survey reported users experienced average processing time of approximately 5 seconds."
+        },
+        {
+            "topic": "Performance cause",
+            "claim": "Engineering team attributed performance problems primarily to inefficient database queries."
+        },
+        {
+            "topic": "Security incident investigation",
+            "claim": "October 2024 security team investigated unauthorized access incident."
+        },
+        {
+            "topic": "Incident date and impact (report 1)",
+            "claim": "Incident report states event occurred on October 14 and affected 37 customer accounts."
+        },
+        {
+            "topic": "Incident date and impact (report 2)",
+            "claim": "Management summary states incident occurred on October 12 and affected 27 accounts."
+        },
+        {
+            "topic": "Security incident cause",
+            "claim": "Security team concluded compromised employee credentials were used to gain access."
+        },
+        {
+            "topic": "Password theft evidence",
+            "claim": "No evidence of customer password theft was found according to security report."
+        },
+        {
+            "topic": "December readiness",
+            "claim": "December project report states platform ready for production deployment."
+        },
+        {
+            "topic": "December performance issues",
+            "claim": "Engineering note states several critical performance issues remained unresolved."
+        },
+        {
+            "topic": "December completion claim",
+            "claim": "Product manager final update describes project as successfully completed in December 2024."
+        },
+        {
+            "topic": "Launch postponement",
+            "claim": "Operations document says production launch postponed until February 2025."
+        },
+        {
+            "topic": "Strategic importance",
+            "claim": "Management considers Nova Support Platform an important strategic project."
+        }
+    ]
+}

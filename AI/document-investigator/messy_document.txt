@@ -1,0 +1,98 @@
+PROJECT INVESTIGATION REPORT: NOVA SUPPORT PLATFORM
+
+SECTION 1 — PROJECT OVERVIEW
+
+The Nova Support Platform is an internal customer-support system developed by NovaTech Solutions. The project began in January 2024 and was originally scheduled for completion in December 2024.
+
+The project team initially consisted of 12 developers, 3 designers, and 2 project managers.
+
+The platform was designed to help support agents manage customer tickets, track incidents, and monitor response times.
+
+SECTION 2 — PROJECT TIMELINE
+
+According to the original project plan, development started in January 2024.
+
+The first internal prototype was completed in April 2024.
+
+The beta release was scheduled for September 2024.
+
+A project update from October 2024 states that the beta had already been released in August 2024.
+
+However, another internal note says the beta release was delayed until October 2024 because of database performance problems.
+
+SECTION 3 — TEAM INFORMATION
+
+The January staffing report lists 17 members on the project:
+12 developers, 3 designers, and 2 project managers.
+
+A June report states that the team had grown to 21 members after four engineers and two testers joined.
+
+A later management summary states that the project team consisted of 18 people at its peak.
+
+The personnel report from November lists 20 active members.
+
+SECTION 4 — BUDGET AND FINANCIAL INFORMATION
+
+The approved project budget was $480,000.
+
+The finance department recorded an expenditure of $310,000 by the end of August 2024.
+
+A September financial summary reports total spending of $365,000.
+
+However, the annual project review states that the project had already spent $410,000 by the end of July 2024.
+
+The annual review also estimates that the final project cost will be approximately $525,000.
+
+SECTION 5 — PERFORMANCE
+
+The first performance test reported an average ticket-processing time of 4.2 seconds.
+
+A July engineering report recorded an average processing time of 3.8 seconds.
+
+After a database optimization, the August report claimed the average processing time had fallen to 2.1 seconds.
+
+A customer-support survey from September reported that users experienced an average processing time of approximately 5 seconds.
+
+The engineering team attributed the performance problems primarily to inefficient database queries.
+
+SECTION 6 — SECURITY INCIDENT
+
+In October 2024, the security team investigated an unauthorized access incident.
+
+The incident report states that the event occurred on October 14 and affected 37 customer accounts.
+
+A management summary published later states that the incident occurred on October 12 and affected 27 accounts.
+
+The security team concluded that compromised employee credentials were used to gain access.
+
+No evidence of customer password theft was found according to the security report.
+
+SECTION 7 — PROJECT STATUS
+
+The December project report states that the Nova Support Platform was ready for production deployment.
+
+However, an engineering note from the same month states that several critical performance issues remained unresolved.
+
+The product manager's final update describes the project as successfully completed in December 2024.
+
+A separate operations document says the production launch was postponed until February 2025.
+
+SECTION 8 — IRRELEVANT INFORMATION
+
+NovaTech Solutions operates offices in several cities.
+
+The company cafeteria introduced a new lunch menu in March 2024.
+
+The IT department replaced 46 office monitors during the year.
+
+The company organized a charity run attended by approximately 120 employees.
+
+These activities were unrelated to the Nova Support Platform project.
+
+SECTION 9 — FINAL MANAGEMENT NOTE
+
+Management considers the Nova Support Platform an important strategic project.
+
+The project improved several aspects of customer-support operations, although the available reports contain conflicting information about its timeline, staffing, spending, performance, security incident, and production status.
+
+Further investigation is recommended before using any single report as the definitive source of project history.

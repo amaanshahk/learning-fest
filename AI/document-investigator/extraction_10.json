@@ -1,0 +1,124 @@
+{
+    "facts": [
+        {
+            "topic": "Project Timeline",
+            "claim": "Development started in January 2024."
+        },
+        {
+            "topic": "Project Timeline",
+            "claim": "First internal prototype completed in April 2024."
+        },
+        {
+            "topic": "Project Timeline",
+            "claim": "Beta release scheduled for September 2024."
+        },
+        {
+            "topic": "Project Timeline",
+            "claim": "Beta release had already been released in August 2024 (project update October 2024)."
+        },
+        {
+            "topic": "Project Timeline",
+            "claim": "Beta release was delayed until October 2024 because of database performance problems (internal note)."
+        },
+        {
+            "topic": "Project Timeline",
+            "claim": "Platform ready for production deployment in December 2024 (December project report)."
+        },
+        {
+            "topic": "Project Timeline",
+            "claim": "Production launch postponed until February 2025 (operations document)."
+        },
+        {
+            "topic": "Staffing",
+            "claim": "Initial team consisted of 12 developers, 3 designers, and 2 project managers."
+        },
+        {
+            "topic": "Staffing",
+            "claim": "January staffing report lists 17 members (12 developers, 3 designers, 2 project managers)."
+        },
+        {
+            "topic": "Staffing",
+            "claim": "Team grew to 21 members in June after four engineers and two testers joined."
+        },
+        {
+            "topic": "Staffing",
+            "claim": "Project team consisted of 18 people at its peak (later management summary)."
+        },
+        {
+            "topic": "Staffing",
+            "claim": "November personnel report lists 20 active members."
+        },
+        {
+            "topic": "Budget",
+            "claim": "Approved project budget was $480,000."
+        },
+        {
+            "topic": "Budget",
+            "claim": "Expenditure of $310,000 recorded by the end of August 2024."
+        },
+        {
+            "topic": "Budget",
+            "claim": "Total spending reported as $365,000 in September financial summary."
+        },
+        {
+            "topic": "Budget",
+            "claim": "Project had spent $410,000 by the end of July 2024 (annual review)."
+        },
+        {
+            "topic": "Budget",
+            "claim": "Annual review estimates final project cost will be approximately $525,000."
+        },
+        {
+            "topic": "Performance",
+            "claim": "First performance test average ticket-processing time was 4.2 seconds."
+        },
+        {
+            "topic": "Performance",
+            "claim": "July engineering report average processing time was 3.8 seconds."
+        },
+        {
+            "topic": "Performance",
+            "claim": "August report after database optimization average processing time fell to 2.1 seconds."
+        },
+        {
+            "topic": "Performance",
+            "claim": "Customer-support survey in September reported users experienced average processing time of approximately 5 seconds."
+        },
+        {
+            "topic": "Performance",
+            "claim": "Engineering team attributed performance problems primarily to inefficient database queries."
+        },
+        {
+            "topic": "Security Incident",
+            "claim": "Unauthorized access incident investigated in October 2024."
+        },
+        {
+            "topic": "Security Incident",
+            "claim": "Security team incident report states event occurred on October 14 and affected 37 customer accounts."
+        },
+        {
+            "topic": "Security Incident",
+            "claim": "Management summary states incident occurred on October 12 and affected 27 accounts."
+        },
+        {
+            "topic": "Security Incident",
+            "claim": "Security team concluded compromised employee credentials were used to gain access."
+        },
+        {
+            "topic": "Security Incident",
+            "claim": "No evidence of customer password theft was found according to the security report."
+        },
+        {
+            "topic": "Project Status",
+            "claim": "Product manager's final update describes the project as successfully completed in December 2024."
+        },
+        {
+            "topic": "Project Status",
+            "claim": "Engineering note from December states that several critical performance issues remained unresolved."
+        },
+        {
+            "topic": "Project Status",
+            "claim": "Operations document says production launch was postponed until February 2025."
+        }
+    ]
+}

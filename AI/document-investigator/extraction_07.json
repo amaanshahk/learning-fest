@@ -1,0 +1,128 @@
+{
+    "facts": [
+        {
+            "topic": "Project overview",
+            "claim": "Nova Support Platform is an internal customer-support system developed by NovaTech Solutions."
+        },
+        {
+            "topic": "Project overview",
+            "claim": "The platform is designed to help support agents manage customer tickets, track incidents, and monitor response times."
+        },
+        {
+            "topic": "Project timeline",
+            "claim": "The project began in January 2024."
+        },
+        {
+            "topic": "Project timeline",
+            "claim": "The original completion date was December 2024."
+        },
+        {
+            "topic": "Project timeline",
+            "claim": "The first internal prototype was completed in April 2024."
+        },
+        {
+            "topic": "Project timeline",
+            "claim": "The beta release was scheduled for September 2024."
+        },
+        {
+            "topic": "Project timeline",
+            "claim": "An October 2024 update says the beta had already been released in August 2024."
+        },
+        {
+            "topic": "Project timeline",
+            "claim": "An internal note says the beta release was delayed until October 2024 due to database performance problems."
+        },
+        {
+            "topic": "Staffing",
+            "claim": "The January staffing report listed 17 members: 12 developers, 3 designers, and 2 project managers."
+        },
+        {
+            "topic": "Staffing",
+            "claim": "The June report states the team grew to 21 members after four engineers and two testers joined."
+        },
+        {
+            "topic": "Staffing",
+            "claim": "A management summary states the team consisted of 18 people at its peak."
+        },
+        {
+            "topic": "Staffing",
+            "claim": "The November personnel report lists 20 active members."
+        },
+        {
+            "topic": "Budget",
+            "claim": "The approved project budget was $480,000."
+        },
+        {
+            "topic": "Budget",
+            "claim": "Finance recorded an expenditure of $310,000 by the end of August 2024."
+        },
+        {
+            "topic": "Budget",
+            "claim": "A September financial summary reports total spending of $365,000."
+        },
+        {
+            "topic": "Budget",
+            "claim": "The annual review states the project had spent $410,000 by the end of July 2024."
+        },
+        {
+            "topic": "Budget",
+            "claim": "The annual review estimates the final project cost will be approximately $525,000."
+        },
+        {
+            "topic": "Performance",
+            "claim": "The first performance test reported an average ticket-processing time of 4.2 seconds."
+        },
+        {
+            "topic": "Performance",
+            "claim": "A July engineering report recorded an average processing time of 3.8 seconds."
+        },
+        {
+            "topic": "Performance",
+            "claim": "An August report claimed the average processing time fell to 2.1 seconds after optimization."
+        },
+        {
+            "topic": "Performance",
+            "claim": "A September customer-support survey reported an average processing time of approximately 5 seconds."
+        },
+        {
+            "topic": "Performance",
+            "claim": "The engineering team attributed performance problems to inefficient database queries."
+        },
+        {
+            "topic": "Security incident",
+            "claim": "In October 2024, the security team investigated an unauthorized access incident."
+        },
+        {
+            "topic": "Security incident",
+            "claim": "The incident report states the event occurred on October 14 and affected 37 customer accounts."
+        },
+        {
+            "topic": "Security incident",
+            "claim": "The management summary states the incident occurred on October 12 and affected 27 accounts."
+        },
+        {
+            "topic": "Security incident",
+            "claim": "The security team concluded compromised employee credentials were used to gain access."
+        },
+        {
+            "topic": "Security incident",
+            "claim": "No evidence of customer password theft was found."
+        },
+        {
+            "topic": "Project status",
+            "claim": "The December project report states the platform was ready for production deployment."
+        },
+        {
+            "topic": "Project status",
+            "claim": "An engineering note from December says several critical performance issues remained unresolved."
+        },
+        {
+            "topic": "Project status",
+            "claim": "The product manager's final update describes the project as successfully completed in December 2024."
+        },
+        {
+            "topic": "Project status",
+            "claim": "An operations document says the production launch was postponed until February 2025."
+        }
+    ]
+}
