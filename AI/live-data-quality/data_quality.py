@@ -2,6 +2,7 @@ import requests
 import pandas as pd
 
 url = "https://api.openbrewerydb.org/v1/breweries?per_page=200"
+df = None
 
 try:
     response = requests.get(url, timeout=10)
@@ -50,6 +51,9 @@ except ValueError:
 except Exception as e:
     print("Unexpected error:", e)
 
+if df is None:
+    print("Data analysis skipped because the API request failed.")
+    exit()
 
 print("\nBrewery types:")
 print(df["brewery_type"].value_counts())
