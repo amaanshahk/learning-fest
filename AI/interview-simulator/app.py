@@ -34,21 +34,41 @@ if "answers" not in st.session_state:
 if "evaluations" not in st.session_state:
     st.session_state.evaluations = []
 
+if "question_count" not in st.session_state:
+    st.session_state.question_count = 0
+
 def generate_question():
+    if st.session_state.questions:
+        previous_context = f"""
+        Previous question: {st.session_state.questions[-1]}
+        Candidate answer: {st.session_state.answers[-1]}
+        Previous evaluation: {st.session_state.evaluations[-1]}
+        """
+    else:
+        previous_context = "No previous interview interaction."
+
     response = client.chat.completions.create(
-        model = "openai/gpt-oss-20b",
+        model="openai/gpt-oss-20b",
         messages=[
-            {"role": "user", "content": f"""
-            You are conducting a job interview as an experienced recruiter of 10 years.
+            {
+                "role": "user",
+                "content": f"""
+                You are conducting a job interview as an experienced recruiter of 10 years.
 
-            Role: {role}
-            Difficulty: {difficulty}
+                Role: {role}
+                Difficulty: {difficulty}
 
-            Generate one interview question appropriate for this role and difficulty based on the current industry standards and relevance.
-            """}
+                {previous_context}
+
+                Generate one relevant interview question based on the role,
+                difficulty, and previous interview interaction. Avoid repeating
+                the previous question.
+                """
+            }
         ]
     )
-    return response.choices[0].message.content 
+
+    return response.choices[0].message.content
 
 def evaluate_answer(question, answer):
     response = client.chat.completions.create(
@@ -68,27 +88,114 @@ def evaluate_answer(question, answer):
     )
     return response.choices[0].message.content
 
+def calculate_score(evaluations):
+    total = 0
+
+    for evaluation in evaluations:
+        score = (
+            evaluation["correctness"]
+            + evaluation["depth"]
+            + evaluation["clarity"]
+        )
+        total += score
+
+    return total
+
+def generate_final_report():
+    response = client.chat.completions.create(
+        model="openai/gpt-oss-20b",
+        messages=[
+            {
+                "role": "user",
+                "content": f"""
+                You are an experienced interview coach.
+
+                Role: {role}
+                Difficulty: {difficulty}
+
+                Here is the candidate's complete interview:
+
+                Questions:
+                {st.session_state.questions}
+
+                Answers:
+                {st.session_state.answers}
+
+                Evaluations:
+                {st.session_state.evaluations}
+
+                Analyze the candidate's overall performance.
+
+                Return a report with exactly these three sections:
+
+                Strengths:
+                - Give specific strengths based on the candidate's actual answers.
+
+                Weaknesses:
+                - Identify specific areas that need improvement based on the actual answers and evaluations.
+
+                Improvement Plan:
+                - Give specific, actionable recommendations based on the candidate's weaknesses.
+
+                Do not give a numerical score.
+                Do not make generic recommendations.
+                Base the report on the candidate's actual interview responses.
+                """
+            }
+        ]
+    )
+
+    return response.choices[0].message.content
+
 if st.button("Start Interview"):
     st.session_state.started = True
     st.session_state.questions = []
     st.session_state.answers = []
     st.session_state.evaluations = []
+    st.session_state.question_count = 0
 
     st.write(f"Starting {difficulty} interview for {role}...")
     question = generate_question()
     st.session_state.questions.append(question)
+    st.session_state.question_count += 1
 
 if st.session_state.questions:
     st.write(st.session_state.questions[-1])
 
 answer = st.text_area("Your answer")
+
 if st.button("Submit Answer"):
-    st.session_state.answers.append(answer)
-    
-    question = st.session_state.questions[-1]
-    evaluation = evaluate_answer(question, answer)
-    evaluation = json.loads(evaluation)
-    st.session_state.evaluations.append(evaluation)
-    question = generate_question()
-    st.session_state.questions.append(question)
-    st.rerun()
+    if answer.strip():
+        st.session_state.answers.append(answer)
+
+        question = st.session_state.questions[-1]
+        evaluation = evaluate_answer(question, answer)
+        evaluation = json.loads(evaluation)
+
+        sample = {
+            "question": question,
+            "answer": answer,
+            "evaluation": evaluation
+        }
+        with open("sample_evaluation.json", "w") as file:
+            json.dump(sample, file, indent=4)
+        st.session_state.evaluations.append(evaluation)
+
+        if st.session_state.question_count >= 5:
+            st.session_state.started = False
+            total_score = calculate_score(st.session_state.evaluations)
+            st.success("Interview completed!")
+            st.write(f"Total Score: {total_score}/75")
+
+            report = generate_final_report()
+            st.markdown(report)
+
+        else:
+            question = generate_question()
+            st.session_state.questions.append(question)
+            st.session_state.question_count += 1
+
+            st.rerun()
+
+    else:
+        st.warning("Please enter an answer before submitting.")
