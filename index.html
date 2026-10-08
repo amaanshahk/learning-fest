@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Record Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <header>
+        <h1>Student Record Manager</h1>
+        <p>Search, filter, sort and analyze student records.</p>
+    </header>
+
+    <main>
+
+        <section class="controls">
+            <input type="text" id="search" placeholder="Search by name">
+
+            <select id="course-filter">
+                <option value="all">All Courses</option>
+            </select>
+
+            <select id="marks-filter">
+                <option value="all">All Marks</option>
+                <option value="90">90 and above</option>
+                <option value="80">80 and above</option>
+                <option value="70">70 and above</option>
+            </select>
+
+            <select id="sort">
+                <option value="none">Sort By</option>
+                <option value="name">Name</option>
+                <option value="marks">Marks</option>
+            </select>
+        </section>
+
+        <section class="stats">
+            <div>
+                <h2 id="total-students">0</h2>
+                <p>Total Students</p>
+            </div>
+
+            <div>
+                <h2 id="average-marks">0</h2>
+                <p>Average Marks</p>
+            </div>
+
+            <div>
+                <h2 id="topper">-</h2>
+                <p>Topper</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Student Records</h2>
+            <div id="student-list"></div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p>Student Record Manager • LF 2026</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
