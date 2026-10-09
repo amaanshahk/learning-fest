@@ -1,0 +1,52 @@
+<!DOCTYPE html><html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Dashboard</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <h1>Weather Dashboard</h1>
+        <p>Current conditions and a 5-day forecast</p>
+    </header><main class="container">
+    <form id="search-form">
+        <input
+            type="text"
+            id="city-input"
+            placeholder="Enter a city, e.g. Thalassery"
+            aria-label="City name"
+            required
+        >
+        <button type="submit">Search</button>
+    </form>
+
+    <p id="status" role="status"></p>
+
+    <section id="current-weather" aria-live="polite">
+        <h2 id="city-name">Search for a city</h2>
+        <p id="temperature">--°C</p>
+        <p id="conditions">Weather conditions will appear here.</p>
+
+        <div class="details">
+            <p>Feels like: <span id="feels-like">--</span></p>
+            <p>Humidity: <span id="humidity">--</span></p>
+            <p>Wind: <span id="wind">--</span></p>
+        </div>
+    </section>
+
+    <section id="forecast-section">
+        <h2>5-Day Forecast</h2>
+        <div id="forecast-list"></div>
+    </section>
+</main>
+
+<footer>
+    <p>Learning Fest 2026 · Web Dev 4</p>
+    <p>μID: amaanshahk@mulearn</p>
+</footer>
+
+<script src="script.js"></script>
+
+</body>
+</html>
