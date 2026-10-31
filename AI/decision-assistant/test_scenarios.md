@@ -40,6 +40,16 @@
 
 **Status:** PASS
 
+## Test 5: Rating-Only Request
+
+**Input:** Find laptops with a rating of at least 4.5.
+
+**Expected:** Return all laptops with a rating of 4.5 or higher, ranked by rating + battery hours.
+
+**Actual:** Four matching laptops were returned and correctly ranked. Laptop I achieved the highest score of 19.5.
+
+**Status:** PASS
+
 ---
 
 ## Test Summary
