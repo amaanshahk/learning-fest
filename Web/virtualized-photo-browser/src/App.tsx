@@ -88,7 +88,6 @@ function App() {
 
             <footer className="app-footer">
                 <span>VIRTUALIZED PHOTO BROWSER</span>
-                <span>LF 2026 · WEB DEV 9</span>
             </footer>
 
             {selectedIndex !== null && (
