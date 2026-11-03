@@ -4,7 +4,4 @@ export interface Photo {
     name: string;
     size: number;
     type: string;
-    width?: number;
-    height?: number;
-    objectUrl?: string;
 }

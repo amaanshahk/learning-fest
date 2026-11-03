@@ -1,13 +1,11 @@
 import { useEffect, useRef } from "react";
-import { isImageFile } from "../utils/imageUtils";
+import { isImageFile } from "../../../shared/utils/imageUtils";
 
 interface FolderPickerProps {
     onFilesSelected: (files: File[]) => void;
 }
 
-export default function FolderPicker({
-    onFilesSelected,
-}: FolderPickerProps) {
+export default function FolderPicker({ onFilesSelected }: FolderPickerProps) {
     const inputRef = useRef<HTMLInputElement>(null);
 
     useEffect(() => {
@@ -15,11 +13,9 @@ export default function FolderPicker({
         inputRef.current?.setAttribute("directory", "");
     }, []);
 
-    function handleChange(
-        event: React.ChangeEvent<HTMLInputElement>
-    ) {
+    function handleChange(event: React.ChangeEvent<HTMLInputElement>) {
         console.time("Folder processing");
-const selectedFiles = Array.from(event.target.files ?? []);
+        const selectedFiles = Array.from(event.target.files ?? []);
         const imageFiles = selectedFiles.filter(isImageFile);
 
         onFilesSelected(imageFiles);

@@ -15,7 +15,7 @@ export function formatFileSize(bytes: number): string {
 }
 
 export function getImageDimensions(
-    file: File
+    file: File,
 ): Promise<{ width: number; height: number }> {
     return new Promise((resolve, reject) => {
         const url = URL.createObjectURL(file);
