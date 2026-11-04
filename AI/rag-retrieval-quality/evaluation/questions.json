@@ -1,0 +1,58 @@
+[
+    {
+        "id": "Q1",
+        "question": "What happens when PostgreSQL becomes unavailable during an inventory update, and how is the failed operation recovered?",
+        "relevant_sections": [
+            "D3",
+            "D6",
+            "R1"
+        ]
+    },
+    {
+        "id": "Q2",
+        "question": "How does Northstar authenticate users, validate access tokens, and handle expired access tokens?",
+        "relevant_sections": [
+            "S1",
+            "S2",
+            "S3",
+            "S4"
+        ]
+    },
+    {
+        "id": "Q3",
+        "question": "How does Northstar prevent duplicate inventory updates when warehouse events are retried?",
+        "relevant_sections": [
+            "D5",
+            "R5"
+        ]
+    },
+    {
+        "id": "Q4",
+        "question": "What happens to order confirmation when the message broker or notification service becomes unavailable?",
+        "relevant_sections": [
+            "A4",
+            "A5",
+            "R3",
+            "R4",
+            "R8"
+        ]
+    },
+    {
+        "id": "Q5",
+        "question": "Why can Northstar continue retrieving product information during a Redis outage, and what is the impact?",
+        "relevant_sections": [
+            "A3",
+            "D4",
+            "D7",
+            "R2"
+        ]
+    },
+    {
+        "id": "Q6",
+        "question": "How are user permissions enforced for administrators, warehouse operators, and customers?",
+        "relevant_sections": [
+            "S4",
+            "S5"
+        ]
+    }
+]

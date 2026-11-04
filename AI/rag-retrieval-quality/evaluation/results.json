@@ -1,0 +1,522 @@
+[
+    {
+        "pipeline": "fixed_size",
+        "question_id": "Q1",
+        "question": "What happens when PostgreSQL becomes unavailable during an inventory update, and how is the failed operation recovered?",
+        "relevant_sections": [
+            "D3",
+            "D6",
+            "R1"
+        ],
+        "retrieved": [
+            {
+                "rank": 1,
+                "chunk_id": "D6_0",
+                "parent_id": "D6",
+                "source": "data_pipeline.md",
+                "section": "D6 \u2014 Failed Updates",
+                "distance": 0.15947848558425903,
+                "relevant": true,
+                "text": "## D6 \u2014 Failed Updates\nIf PostgreSQL is unavailable, the Inventory Service does not report the inventory update as successful. The failed operation is logged for investigation. The"
+            },
+            {
+                "rank": 2,
+                "chunk_id": "R1_0",
+                "parent_id": "R1",
+                "source": "incident_response.md",
+                "section": "R1 \u2014 PostgreSQL Outage",
+                "distance": 0.2125561237335205,
+                "relevant": true,
+                "text": "## R1 \u2014 PostgreSQL Outage\nWhen PostgreSQL becomes unavailable, inventory updates cannot be committed. The Inventory Service must reject these operations rather than acknowledge suc"
+            },
+            {
+                "rank": 3,
+                "chunk_id": "R2_0",
+                "parent_id": "R2",
+                "source": "incident_response.md",
+                "section": "R2 \u2014 Redis Outage",
+                "distance": 0.36811184883117676,
+                "relevant": false,
+                "text": "## R2 \u2014 Redis Outage\nIf Redis becomes unavailable, the Inventory Service can retrieve product information directly from PostgreSQL. The application may experience increased databas"
+            }
+        ],
+        "precision_at_3": 0.6667
+    },
+    {
+        "pipeline": "fixed_size",
+        "question_id": "Q2",
+        "question": "How does Northstar authenticate users, validate access tokens, and handle expired access tokens?",
+        "relevant_sections": [
+            "S1",
+            "S2",
+            "S3",
+            "S4"
+        ],
+        "retrieved": [
+            {
+                "rank": 1,
+                "chunk_id": "S3_0",
+                "parent_id": "S3",
+                "source": "authentication.md",
+                "section": "S3 \u2014 Refresh Tokens",
+                "distance": 0.30284690856933594,
+                "relevant": true,
+                "text": "## S3 \u2014 Refresh Tokens\nNorthstar also issues refresh tokens with a longer validity period. When an access token expires, the client can submit its refresh token to obtain a new acc"
+            },
+            {
+                "rank": 2,
+                "chunk_id": "S1_0",
+                "parent_id": "S1",
+                "source": "authentication.md",
+                "section": "S1 \u2014 User Authentication",
+                "distance": 0.31763994693756104,
+                "relevant": true,
+                "text": "## S1 \u2014 User Authentication\nNorthstar authenticates users through the Authentication Service. Users submit their registered email address and password. Credentials are verified aga"
+            },
+            {
+                "rank": 3,
+                "chunk_id": "S2_0",
+                "parent_id": "S2",
+                "source": "authentication.md",
+                "section": "S2 \u2014 Access Tokens",
+                "distance": 0.44962990283966064,
+                "relevant": true,
+                "text": "## S2 \u2014 Access Tokens\nAfter successful authentication, the Authentication Service issues a short-lived access token. The token contains the user's identifier, assigned role, and ex"
+            }
+        ],
+        "precision_at_3": 1.0
+    },
+    {
+        "pipeline": "fixed_size",
+        "question_id": "Q3",
+        "question": "How does Northstar prevent duplicate inventory updates when warehouse events are retried?",
+        "relevant_sections": [
+            "D5",
+            "R5"
+        ],
+        "retrieved": [
+            {
+                "rank": 1,
+                "chunk_id": "R5_0",
+                "parent_id": "R5",
+                "source": "incident_response.md",
+                "section": "R5 \u2014 Duplicate Event Handling",
+                "distance": 0.2621511220932007,
+                "relevant": true,
+                "text": "## R5 \u2014 Duplicate Event Handling\nThe Inventory Service uses unique event identifiers to prevent duplicate inventory updates. This ensures that retrying a previously processed wareh"
+            },
+            {
+                "rank": 2,
+                "chunk_id": "D5_0",
+                "parent_id": "D5",
+                "source": "data_pipeline.md",
+                "section": "D5 \u2014 Duplicate Update Prevention",
+                "distance": 0.30372005701065063,
+                "relevant": true,
+                "text": "## D5 \u2014 Duplicate Update Prevention\nEvery inventory update includes a unique event identifier. The Inventory Service stores processed event identifiers to prevent duplicate updates"
+            },
+            {
+                "rank": 3,
+                "chunk_id": "D1_0",
+                "parent_id": "D1",
+                "source": "data_pipeline.md",
+                "section": "D1 \u2014 Data Ingestion",
+                "distance": 0.3877713680267334,
+                "relevant": false,
+                "text": "## D1 \u2014 Data Ingestion\nNorthstar receives inventory updates from warehouse operators through the API Gateway. Each update contains a product identifier, warehouse identifier, quant"
+            }
+        ],
+        "precision_at_3": 0.6667
+    },
+    {
+        "pipeline": "fixed_size",
+        "question_id": "Q4",
+        "question": "What happens to order confirmation when the message broker or notification service becomes unavailable?",
+        "relevant_sections": [
+            "A4",
+            "A5",
+            "R3",
+            "R4",
+            "R8"
+        ],
+        "retrieved": [
+            {
+                "rank": 1,
+                "chunk_id": "R3_0",
+                "parent_id": "R3",
+                "source": "incident_response.md",
+                "section": "R3 \u2014 Message Broker Failure",
+                "distance": 0.26223695278167725,
+                "relevant": true,
+                "text": "## R3 \u2014 Message Broker Failure\nIf the message broker becomes unavailable after an order is confirmed, the OrderCreated event cannot be delivered immediately. The order confirmation"
+            },
+            {
+                "rank": 2,
+                "chunk_id": "R3_140",
+                "parent_id": "R3",
+                "source": "incident_response.md",
+                "section": "R3 \u2014 Message Broker Failure",
+                "distance": 0.3037327527999878,
+                "relevant": true,
+                "text": "ered immediately. The order confirmation itself remains successful. The event must be retained for retry so that the Notification Service can eventually process it."
+            },
+            {
+                "rank": 3,
+                "chunk_id": "R4_0",
+                "parent_id": "R4",
+                "source": "incident_response.md",
+                "section": "R4 \u2014 Notification Service Failure",
+                "distance": 0.30559825897216797,
+                "relevant": true,
+                "text": "## R4 \u2014 Notification Service Failure\nIf the Notification Service is unavailable, customers may not immediately receive order confirmation emails. Order processing remains independe"
+            }
+        ],
+        "precision_at_3": 0.6667
+    },
+    {
+        "pipeline": "fixed_size",
+        "question_id": "Q5",
+        "question": "Why can Northstar continue retrieving product information during a Redis outage, and what is the impact?",
+        "relevant_sections": [
+            "A3",
+            "D4",
+            "D7",
+            "R2"
+        ],
+        "retrieved": [
+            {
+                "rank": 1,
+                "chunk_id": "R2_0",
+                "parent_id": "R2",
+                "source": "incident_response.md",
+                "section": "R2 \u2014 Redis Outage",
+                "distance": 0.3357086777687073,
+                "relevant": true,
+                "text": "## R2 \u2014 Redis Outage\nIf Redis becomes unavailable, the Inventory Service can retrieve product information directly from PostgreSQL. The application may experience increased databas"
+            },
+            {
+                "rank": 2,
+                "chunk_id": "R7_0",
+                "parent_id": "R7",
+                "source": "incident_response.md",
+                "section": "R7 \u2014 Monitoring",
+                "distance": 0.37758946418762207,
+                "relevant": false,
+                "text": "## R7 \u2014 Monitoring\nNorthstar monitors API response times, database connectivity, Redis availability, message broker delivery failures, and backend service health. Alerts are genera"
+            },
+            {
+                "rank": 3,
+                "chunk_id": "A1_0",
+                "parent_id": "A1",
+                "source": "architecture.md",
+                "section": "A1 \u2014 System Overview",
+                "distance": 0.4428675174713135,
+                "relevant": false,
+                "text": "## A1 \u2014 System Overview\nNorthstar is a fictional inventory management platform designed for medium-sized retailers. It consists of an API Gateway, Authentication Service, Inventory"
+            }
+        ],
+        "precision_at_3": 0.3333
+    },
+    {
+        "pipeline": "fixed_size",
+        "question_id": "Q6",
+        "question": "How are user permissions enforced for administrators, warehouse operators, and customers?",
+        "relevant_sections": [
+            "S4",
+            "S5"
+        ],
+        "retrieved": [
+            {
+                "rank": 1,
+                "chunk_id": "S5_0",
+                "parent_id": "S5",
+                "source": "authentication.md",
+                "section": "S5 \u2014 Role-Based Access Control",
+                "distance": 0.4013862609863281,
+                "relevant": true,
+                "text": "## S5 \u2014 Role-Based Access Control\nNorthstar uses role-based access control. Administrators can manage users and warehouse configurations. Warehouse operators can update inventory q"
+            },
+            {
+                "rank": 2,
+                "chunk_id": "S5_140",
+                "parent_id": "S5",
+                "source": "authentication.md",
+                "section": "S5 \u2014 Role-Based Access Control",
+                "distance": 0.6176588535308838,
+                "relevant": true,
+                "text": "rehouse operators can update inventory quantities. Customers can view products and place orders but cannot directly modify warehouse stock."
+            },
+            {
+                "rank": 3,
+                "chunk_id": "S2_140",
+                "parent_id": "S2",
+                "source": "authentication.md",
+                "section": "S2 \u2014 Access Tokens",
+                "distance": 0.6919206380844116,
+                "relevant": false,
+                "text": "user's identifier, assigned role, and expiration timestamp. Clients include this token in the Authorization header of protected API requests."
+            }
+        ],
+        "precision_at_3": 0.3333
+    },
+    {
+        "pipeline": "section_based",
+        "question_id": "Q1",
+        "question": "What happens when PostgreSQL becomes unavailable during an inventory update, and how is the failed operation recovered?",
+        "relevant_sections": [
+            "D3",
+            "D6",
+            "R1"
+        ],
+        "retrieved": [
+            {
+                "rank": 1,
+                "chunk_id": "D6",
+                "parent_id": "D6",
+                "source": "data_pipeline.md",
+                "section": "D6 \u2014 Failed Updates",
+                "distance": 0.1457955241203308,
+                "relevant": true,
+                "text": "## D6 \u2014 Failed Updates\nIf PostgreSQL is unavailable, the Inventory Service does not report the inventory update as successful. The failed operation is logged for investigation. The warehouse operator must retry the update after database connectivity is restored."
+            },
+            {
+                "rank": 2,
+                "chunk_id": "R1",
+                "parent_id": "R1",
+                "source": "incident_response.md",
+                "section": "R1 \u2014 PostgreSQL Outage",
+                "distance": 0.1634920835494995,
+                "relevant": true,
+                "text": "## R1 \u2014 PostgreSQL Outage\nWhen PostgreSQL becomes unavailable, inventory updates cannot be committed. The Inventory Service must reject these operations rather than acknowledge successful updates. Failed operations are logged, and warehouse operators retry them after database connectivity is restored."
+            },
+            {
+                "rank": 3,
+                "chunk_id": "D3",
+                "parent_id": "D3",
+                "source": "data_pipeline.md",
+                "section": "D3 \u2014 Database Persistence",
+                "distance": 0.3317962884902954,
+                "relevant": true,
+                "text": "## D3 \u2014 Database Persistence\nValidated inventory updates are written to PostgreSQL. Each transaction updates the available stock quantity and records the event timestamp. Database transactions ensure that partial updates are not committed when an operation fails."
+            }
+        ],
+        "precision_at_3": 1.0
+    },
+    {
+        "pipeline": "section_based",
+        "question_id": "Q2",
+        "question": "How does Northstar authenticate users, validate access tokens, and handle expired access tokens?",
+        "relevant_sections": [
+            "S1",
+            "S2",
+            "S3",
+            "S4"
+        ],
+        "retrieved": [
+            {
+                "rank": 1,
+                "chunk_id": "S3",
+                "parent_id": "S3",
+                "source": "authentication.md",
+                "section": "S3 \u2014 Refresh Tokens",
+                "distance": 0.2529398202896118,
+                "relevant": true,
+                "text": "## S3 \u2014 Refresh Tokens\nNorthstar also issues refresh tokens with a longer validity period. When an access token expires, the client can submit its refresh token to obtain a new access token without requiring the user to enter credentials again."
+            },
+            {
+                "rank": 2,
+                "chunk_id": "S1",
+                "parent_id": "S1",
+                "source": "authentication.md",
+                "section": "S1 \u2014 User Authentication",
+                "distance": 0.28094542026519775,
+                "relevant": true,
+                "text": "## S1 \u2014 User Authentication\nNorthstar authenticates users through the Authentication Service. Users submit their registered email address and password. Credentials are verified against securely stored password hashes."
+            },
+            {
+                "rank": 3,
+                "chunk_id": "S2",
+                "parent_id": "S2",
+                "source": "authentication.md",
+                "section": "S2 \u2014 Access Tokens",
+                "distance": 0.36441659927368164,
+                "relevant": true,
+                "text": "## S2 \u2014 Access Tokens\nAfter successful authentication, the Authentication Service issues a short-lived access token. The token contains the user's identifier, assigned role, and expiration timestamp. Clients include this token in the Authorization header of protected API requests."
+            }
+        ],
+        "precision_at_3": 1.0
+    },
+    {
+        "pipeline": "section_based",
+        "question_id": "Q3",
+        "question": "How does Northstar prevent duplicate inventory updates when warehouse events are retried?",
+        "relevant_sections": [
+            "D5",
+            "R5"
+        ],
+        "retrieved": [
+            {
+                "rank": 1,
+                "chunk_id": "R5",
+                "parent_id": "R5",
+                "source": "incident_response.md",
+                "section": "R5 \u2014 Duplicate Event Handling",
+                "distance": 0.2249927520751953,
+                "relevant": true,
+                "text": "## R5 \u2014 Duplicate Event Handling\nThe Inventory Service uses unique event identifiers to prevent duplicate inventory updates. This ensures that retrying a previously processed warehouse event does not incorrectly increase or decrease stock quantities."
+            },
+            {
+                "rank": 2,
+                "chunk_id": "D5",
+                "parent_id": "D5",
+                "source": "data_pipeline.md",
+                "section": "D5 \u2014 Duplicate Update Prevention",
+                "distance": 0.27362674474716187,
+                "relevant": true,
+                "text": "## D5 \u2014 Duplicate Update Prevention\nEvery inventory update includes a unique event identifier. The Inventory Service stores processed event identifiers to prevent duplicate updates. If an event identifier has already been processed, the update is ignored."
+            },
+            {
+                "rank": 3,
+                "chunk_id": "D1",
+                "parent_id": "D1",
+                "source": "data_pipeline.md",
+                "section": "D1 \u2014 Data Ingestion",
+                "distance": 0.34874963760375977,
+                "relevant": false,
+                "text": "## D1 \u2014 Data Ingestion\nNorthstar receives inventory updates from warehouse operators through the API Gateway. Each update contains a product identifier, warehouse identifier, quantity, and event timestamp. The Inventory Service processes these updates."
+            }
+        ],
+        "precision_at_3": 0.6667
+    },
+    {
+        "pipeline": "section_based",
+        "question_id": "Q4",
+        "question": "What happens to order confirmation when the message broker or notification service becomes unavailable?",
+        "relevant_sections": [
+            "A4",
+            "A5",
+            "R3",
+            "R4",
+            "R8"
+        ],
+        "retrieved": [
+            {
+                "rank": 1,
+                "chunk_id": "R3",
+                "parent_id": "R3",
+                "source": "incident_response.md",
+                "section": "R3 \u2014 Message Broker Failure",
+                "distance": 0.13940143585205078,
+                "relevant": true,
+                "text": "## R3 \u2014 Message Broker Failure\nIf the message broker becomes unavailable after an order is confirmed, the OrderCreated event cannot be delivered immediately. The order confirmation itself remains successful. The event must be retained for retry so that the Notification Service can eventually process it."
+            },
+            {
+                "rank": 2,
+                "chunk_id": "R4",
+                "parent_id": "R4",
+                "source": "incident_response.md",
+                "section": "R4 \u2014 Notification Service Failure",
+                "distance": 0.24735534191131592,
+                "relevant": true,
+                "text": "## R4 \u2014 Notification Service Failure\nIf the Notification Service is unavailable, customers may not immediately receive order confirmation emails. Order processing remains independent of notification delivery. Pending notification events are processed when the service becomes available again."
+            },
+            {
+                "rank": 3,
+                "chunk_id": "R8",
+                "parent_id": "R8",
+                "source": "incident_response.md",
+                "section": "R8 \u2014 Order and Notification Consistency",
+                "distance": 0.3591243624687195,
+                "relevant": true,
+                "text": "## R8 \u2014 Order and Notification Consistency\nAn order can be successfully confirmed even if its notification email is delayed. Recovery procedures must ensure that pending OrderCreated events are eventually delivered without creating duplicate orders or duplicate notifications."
+            }
+        ],
+        "precision_at_3": 1.0
+    },
+    {
+        "pipeline": "section_based",
+        "question_id": "Q5",
+        "question": "Why can Northstar continue retrieving product information during a Redis outage, and what is the impact?",
+        "relevant_sections": [
+            "A3",
+            "D4",
+            "D7",
+            "R2"
+        ],
+        "retrieved": [
+            {
+                "rank": 1,
+                "chunk_id": "R2",
+                "parent_id": "R2",
+                "source": "incident_response.md",
+                "section": "R2 \u2014 Redis Outage",
+                "distance": 0.3048267364501953,
+                "relevant": true,
+                "text": "## R2 \u2014 Redis Outage\nIf Redis becomes unavailable, the Inventory Service can retrieve product information directly from PostgreSQL. The application may experience increased database load and slower response times, but PostgreSQL remains the authoritative data source."
+            },
+            {
+                "rank": 2,
+                "chunk_id": "R7",
+                "parent_id": "R7",
+                "source": "incident_response.md",
+                "section": "R7 \u2014 Monitoring",
+                "distance": 0.37297123670578003,
+                "relevant": false,
+                "text": "## R7 \u2014 Monitoring\nNorthstar monitors API response times, database connectivity, Redis availability, message broker delivery failures, and backend service health. Alerts are generated when service metrics exceed predefined operational thresholds."
+            },
+            {
+                "rank": 3,
+                "chunk_id": "A1",
+                "parent_id": "A1",
+                "source": "architecture.md",
+                "section": "A1 \u2014 System Overview",
+                "distance": 0.4315139651298523,
+                "relevant": false,
+                "text": "## A1 \u2014 System Overview\nNorthstar is a fictional inventory management platform designed for medium-sized retailers. It consists of an API Gateway, Authentication Service, Inventory Service, Order Service, and Notification Service. The system uses PostgreSQL for persistent storage and Redis for caching."
+            }
+        ],
+        "precision_at_3": 0.3333
+    },
+    {
+        "pipeline": "section_based",
+        "question_id": "Q6",
+        "question": "How are user permissions enforced for administrators, warehouse operators, and customers?",
+        "relevant_sections": [
+            "S4",
+            "S5"
+        ],
+        "retrieved": [
+            {
+                "rank": 1,
+                "chunk_id": "S5",
+                "parent_id": "S5",
+                "source": "authentication.md",
+                "section": "S5 \u2014 Role-Based Access Control",
+                "distance": 0.43136149644851685,
+                "relevant": true,
+                "text": "## S5 \u2014 Role-Based Access Control\nNorthstar uses role-based access control. Administrators can manage users and warehouse configurations. Warehouse operators can update inventory quantities. Customers can view products and place orders but cannot directly modify warehouse stock."
+            },
+            {
+                "rank": 2,
+                "chunk_id": "A3",
+                "parent_id": "A3",
+                "source": "architecture.md",
+                "section": "A3 \u2014 Inventory Service",
+                "distance": 0.7339162826538086,
+                "relevant": false,
+                "text": "## A3 \u2014 Inventory Service\nThe Inventory Service manages product information, stock quantities, and warehouse locations. It communicates with PostgreSQL to persist inventory changes. Redis caches frequently accessed product information to reduce database load."
+            },
+            {
+                "rank": 3,
+                "chunk_id": "S2",
+                "parent_id": "S2",
+                "source": "authentication.md",
+                "section": "S2 \u2014 Access Tokens",
+                "distance": 0.7589569091796875,
+                "relevant": false,
+                "text": "## S2 \u2014 Access Tokens\nAfter successful authentication, the Authentication Service issues a short-lived access token. The token contains the user's identifier, assigned role, and expiration timestamp. Clients include this token in the Authorization header of protected API requests."
+            }
+        ],
+        "precision_at_3": 0.3333
+    }
+]
