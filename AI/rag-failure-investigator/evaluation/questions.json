@@ -1,0 +1,58 @@
+[
+  {
+    "id": "Q1",
+    "category": "supported",
+    "question": "What features are included in the AtlasDesk Standard plan?",
+    "expected_sources": ["product_overview.md", "subscription_policy.md"],
+    "expected_behavior": "Answer using the available product and subscription information."
+  },
+  {
+    "id": "Q2",
+    "category": "supported",
+    "question": "How can a customer reset a forgotten AtlasDesk password?",
+    "expected_sources": ["customer_faq.md", "support_operations.md"],
+    "expected_behavior": "Explain the password reset process without inventing additional steps."
+  },
+  {
+    "id": "Q3",
+    "category": "unsupported",
+    "question": "Does AtlasDesk support integration with Salesforce, and how can it be configured?",
+    "expected_sources": [],
+    "expected_behavior": "State that the knowledge base does not establish Salesforce integration support or configuration steps."
+  },
+  {
+    "id": "Q4",
+    "category": "unsupported",
+    "question": "What encryption algorithm does AtlasDesk use to store customer passwords?",
+    "expected_sources": [],
+    "expected_behavior": "State that the encryption algorithm is not specified in the knowledge base."
+  },
+  {
+    "id": "Q5",
+    "category": "ambiguous",
+    "question": "How many users can AtlasDesk support?",
+    "expected_sources": ["subscription_policy.md", "customer_faq.md"],
+    "expected_behavior": "Ask which subscription plan the customer means because the question does not specify a plan."
+  },
+  {
+    "id": "Q6",
+    "category": "ambiguous",
+    "question": "How long does AtlasDesk delivery take?",
+    "expected_sources": ["shipping_and_onboarding.md", "support_operations.md"],
+    "expected_behavior": "Clarify that delivery information concerns the optional DeskHub device, not the cloud software."
+  },
+  {
+    "id": "Q7",
+    "category": "conflicting",
+    "question": "What is the refund period for an initial AtlasDesk subscription purchase?",
+    "expected_sources": ["billing_and_refunds.md", "customer_faq.md"],
+    "expected_behavior": "Identify the conflicting 14-day and 30-day refund policies without silently choosing one."
+  },
+  {
+    "id": "Q8",
+    "category": "conflicting",
+    "question": "How many team members are allowed on the AtlasDesk Standard plan?",
+    "expected_sources": ["subscription_policy.md", "customer_faq.md"],
+    "expected_behavior": "Identify the conflicting limits of 5 and 10 team members."
+  }
+]

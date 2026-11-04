@@ -1,0 +1,562 @@
+[
+    {
+        "id": "Q1",
+        "category": "supported",
+        "question": "What features are included in the AtlasDesk Standard plan?",
+        "retrieved_contexts": [
+            {
+                "id": "product_overview_2",
+                "source": "product_overview.md",
+                "text": "AtlasDesk offers three subscription plans: Starter, Standard and Enterprise. The Starter plan is designed for individuals and small teams. Standard provides additional collaboration features, while Enterprise includes advanced administration and custom integrations.",
+                "distance": 0.30365097522735596
+            },
+            {
+                "id": "product_overview_1",
+                "source": "product_overview.md",
+                "text": "AtlasDesk is a cloud-based customer support platform for small and medium-sized businesses. It provides ticket management, customer communication, team collaboration and performance reporting.",
+                "distance": 0.4155140519142151
+            },
+            {
+                "id": "product_overview_3",
+                "source": "product_overview.md",
+                "text": "All plans provide access to the ticket management dashboard. Customers can access AtlasDesk through a web browser. Mobile access is available through the official mobile application.",
+                "distance": 0.4510538578033447
+            },
+            {
+                "id": "shipping_and_onboarding_1",
+                "source": "shipping_and_onboarding.md",
+                "text": "AtlasDesk is primarily a cloud-based service. Customers do not need physical hardware to use the platform.",
+                "distance": 0.4632953405380249
+            },
+            {
+                "id": "support_operations_1",
+                "source": "support_operations.md",
+                "text": "AtlasDesk customer support is available through email and the in-app support portal.",
+                "distance": 0.5105783939361572
+            }
+        ],
+        "injected_context": [
+            {
+                "id": "product_overview_2",
+                "source": "product_overview.md",
+                "text": "AtlasDesk offers three subscription plans: Starter, Standard and Enterprise. The Starter plan is designed for individuals and small teams. Standard provides additional collaboration features, while Enterprise includes advanced administration and custom integrations.",
+                "distance": 0.30365097522735596
+            },
+            {
+                "id": "product_overview_1",
+                "source": "product_overview.md",
+                "text": "AtlasDesk is a cloud-based customer support platform for small and medium-sized businesses. It provides ticket management, customer communication, team collaboration and performance reporting.",
+                "distance": 0.4155140519142151
+            },
+            {
+                "id": "product_overview_3",
+                "source": "product_overview.md",
+                "text": "All plans provide access to the ticket management dashboard. Customers can access AtlasDesk through a web browser. Mobile access is available through the official mobile application.",
+                "distance": 0.4510538578033447
+            },
+            {
+                "id": "shipping_and_onboarding_1",
+                "source": "shipping_and_onboarding.md",
+                "text": "AtlasDesk is primarily a cloud-based service. Customers do not need physical hardware to use the platform.",
+                "distance": 0.4632953405380249
+            },
+            {
+                "id": "support_operations_1",
+                "source": "support_operations.md",
+                "text": "AtlasDesk customer support is available through email and the in-app support portal.",
+                "distance": 0.5105783939361572
+            }
+        ],
+        "final_answer": "**AtlasDesk Standard plan**\n\nAccording to the product overview, the Standard plan includes:\n\n* All the core features that every plan offers \u2013\u202fthe ticket\u2011management dashboard, web\u2011browser access, and mobile\u2011app access.  \n* **Additional collaboration features** that go beyond the Starter plan.  \n\nThe exact collaboration tools are not listed in the supplied context, so the Standard plan is described as \u201cproviding additional collaboration features\u201d beyond those available in the Starter plan."
+    },
+    {
+        "id": "Q2",
+        "category": "supported",
+        "question": "How can a customer reset a forgotten AtlasDesk password?",
+        "retrieved_contexts": [
+            {
+                "id": "customer_faq_4",
+                "source": "customer_faq.md",
+                "text": "If a customer forgets their password, they can use the Forgot Password option on the login page. A password reset link will be sent to their registered email address.",
+                "distance": 0.3844655752182007
+            },
+            {
+                "id": "support_operations_1",
+                "source": "support_operations.md",
+                "text": "AtlasDesk customer support is available through email and the in-app support portal.",
+                "distance": 0.40898698568344116
+            },
+            {
+                "id": "support_operations_5",
+                "source": "support_operations.md",
+                "text": "Password reset links are sent to the registered email address. Support agents cannot directly view a customer's password.",
+                "distance": 0.4286731481552124
+            },
+            {
+                "id": "customer_faq_3",
+                "source": "customer_faq.md",
+                "text": "AtlasDesk subscription purchases are covered by a 30-day refund window beginning on the date of the initial purchase. Customers should contact support with their transaction reference to request a refund.",
+                "distance": 0.43609189987182617
+            },
+            {
+                "id": "product_overview_1",
+                "source": "product_overview.md",
+                "text": "AtlasDesk is a cloud-based customer support platform for small and medium-sized businesses. It provides ticket management, customer communication, team collaboration and performance reporting.",
+                "distance": 0.49391859769821167
+            }
+        ],
+        "injected_context": [
+            {
+                "id": "customer_faq_4",
+                "source": "customer_faq.md",
+                "text": "If a customer forgets their password, they can use the Forgot Password option on the login page. A password reset link will be sent to their registered email address.",
+                "distance": 0.3844655752182007
+            },
+            {
+                "id": "support_operations_1",
+                "source": "support_operations.md",
+                "text": "AtlasDesk customer support is available through email and the in-app support portal.",
+                "distance": 0.40898698568344116
+            },
+            {
+                "id": "support_operations_5",
+                "source": "support_operations.md",
+                "text": "Password reset links are sent to the registered email address. Support agents cannot directly view a customer's password.",
+                "distance": 0.4286731481552124
+            },
+            {
+                "id": "customer_faq_3",
+                "source": "customer_faq.md",
+                "text": "AtlasDesk subscription purchases are covered by a 30-day refund window beginning on the date of the initial purchase. Customers should contact support with their transaction reference to request a refund.",
+                "distance": 0.43609189987182617
+            },
+            {
+                "id": "product_overview_1",
+                "source": "product_overview.md",
+                "text": "AtlasDesk is a cloud-based customer support platform for small and medium-sized businesses. It provides ticket management, customer communication, team collaboration and performance reporting.",
+                "distance": 0.49391859769821167
+            }
+        ],
+        "final_answer": "To reset a forgotten AtlasDesk password, a customer should:\n\n1. Go to the AtlasDesk login page.  \n2. Click the **Forgot Password** link.  \n3. Enter the email address that is registered with their AtlasDesk account.  \n4. AtlasDesk will send a password\u2011reset link to that email, which the customer can use to set a new password.  \n\n(See customer_faq.md and support_operations.md.)"
+    },
+    {
+        "id": "Q3",
+        "category": "unsupported",
+        "question": "Does AtlasDesk support integration with Salesforce, and how can it be configured?",
+        "retrieved_contexts": [
+            {
+                "id": "product_overview_1",
+                "source": "product_overview.md",
+                "text": "AtlasDesk is a cloud-based customer support platform for small and medium-sized businesses. It provides ticket management, customer communication, team collaboration and performance reporting.",
+                "distance": 0.20481717586517334
+            },
+            {
+                "id": "shipping_and_onboarding_1",
+                "source": "shipping_and_onboarding.md",
+                "text": "AtlasDesk is primarily a cloud-based service. Customers do not need physical hardware to use the platform.",
+                "distance": 0.2598678469657898
+            },
+            {
+                "id": "support_operations_1",
+                "source": "support_operations.md",
+                "text": "AtlasDesk customer support is available through email and the in-app support portal.",
+                "distance": 0.27879947423934937
+            },
+            {
+                "id": "product_overview_3",
+                "source": "product_overview.md",
+                "text": "All plans provide access to the ticket management dashboard. Customers can access AtlasDesk through a web browser. Mobile access is available through the official mobile application.",
+                "distance": 0.3462193012237549
+            },
+            {
+                "id": "product_overview_2",
+                "source": "product_overview.md",
+                "text": "AtlasDesk offers three subscription plans: Starter, Standard and Enterprise. The Starter plan is designed for individuals and small teams. Standard provides additional collaboration features, while Enterprise includes advanced administration and custom integrations.",
+                "distance": 0.3699592351913452
+            }
+        ],
+        "injected_context": [
+            {
+                "id": "product_overview_1",
+                "source": "product_overview.md",
+                "text": "AtlasDesk is a cloud-based customer support platform for small and medium-sized businesses. It provides ticket management, customer communication, team collaboration and performance reporting.",
+                "distance": 0.20481717586517334
+            },
+            {
+                "id": "shipping_and_onboarding_1",
+                "source": "shipping_and_onboarding.md",
+                "text": "AtlasDesk is primarily a cloud-based service. Customers do not need physical hardware to use the platform.",
+                "distance": 0.2598678469657898
+            },
+            {
+                "id": "support_operations_1",
+                "source": "support_operations.md",
+                "text": "AtlasDesk customer support is available through email and the in-app support portal.",
+                "distance": 0.27879947423934937
+            },
+            {
+                "id": "product_overview_3",
+                "source": "product_overview.md",
+                "text": "All plans provide access to the ticket management dashboard. Customers can access AtlasDesk through a web browser. Mobile access is available through the official mobile application.",
+                "distance": 0.3462193012237549
+            },
+            {
+                "id": "product_overview_2",
+                "source": "product_overview.md",
+                "text": "AtlasDesk offers three subscription plans: Starter, Standard and Enterprise. The Starter plan is designed for individuals and small teams. Standard provides additional collaboration features, while Enterprise includes advanced administration and custom integrations.",
+                "distance": 0.3699592351913452
+            }
+        ],
+        "final_answer": "I\u2019m sorry, but the supplied information does not contain any details about Salesforce integration or how it might be configured."
+    },
+    {
+        "id": "Q4",
+        "category": "unsupported",
+        "question": "What encryption algorithm does AtlasDesk use to store customer passwords?",
+        "retrieved_contexts": [
+            {
+                "id": "product_overview_1",
+                "source": "product_overview.md",
+                "text": "AtlasDesk is a cloud-based customer support platform for small and medium-sized businesses. It provides ticket management, customer communication, team collaboration and performance reporting.",
+                "distance": 0.38151293992996216
+            },
+            {
+                "id": "billing_and_refunds_1",
+                "source": "billing_and_refunds.md",
+                "text": "AtlasDesk charges subscriptions monthly using the payment method registered by the customer. Customers can view invoices and payment history from the billing dashboard.",
+                "distance": 0.4612985849380493
+            },
+            {
+                "id": "support_operations_1",
+                "source": "support_operations.md",
+                "text": "AtlasDesk customer support is available through email and the in-app support portal.",
+                "distance": 0.46889954805374146
+            },
+            {
+                "id": "shipping_and_onboarding_1",
+                "source": "shipping_and_onboarding.md",
+                "text": "AtlasDesk is primarily a cloud-based service. Customers do not need physical hardware to use the platform.",
+                "distance": 0.48248040676116943
+            },
+            {
+                "id": "subscription_policy_1",
+                "source": "subscription_policy.md",
+                "text": "AtlasDesk subscriptions are billed monthly. Customers can upgrade or downgrade their subscription from the billing dashboard.",
+                "distance": 0.5024127960205078
+            }
+        ],
+        "injected_context": [
+            {
+                "id": "product_overview_1",
+                "source": "product_overview.md",
+                "text": "AtlasDesk is a cloud-based customer support platform for small and medium-sized businesses. It provides ticket management, customer communication, team collaboration and performance reporting.",
+                "distance": 0.38151293992996216
+            },
+            {
+                "id": "billing_and_refunds_1",
+                "source": "billing_and_refunds.md",
+                "text": "AtlasDesk charges subscriptions monthly using the payment method registered by the customer. Customers can view invoices and payment history from the billing dashboard.",
+                "distance": 0.4612985849380493
+            },
+            {
+                "id": "support_operations_1",
+                "source": "support_operations.md",
+                "text": "AtlasDesk customer support is available through email and the in-app support portal.",
+                "distance": 0.46889954805374146
+            },
+            {
+                "id": "shipping_and_onboarding_1",
+                "source": "shipping_and_onboarding.md",
+                "text": "AtlasDesk is primarily a cloud-based service. Customers do not need physical hardware to use the platform.",
+                "distance": 0.48248040676116943
+            },
+            {
+                "id": "subscription_policy_1",
+                "source": "subscription_policy.md",
+                "text": "AtlasDesk subscriptions are billed monthly. Customers can upgrade or downgrade their subscription from the billing dashboard.",
+                "distance": 0.5024127960205078
+            }
+        ],
+        "final_answer": "I\u2019m sorry, but the provided information does not include any details about the encryption algorithm AtlasDesk uses to store customer passwords."
+    },
+    {
+        "id": "Q5",
+        "category": "ambiguous",
+        "question": "How many users can AtlasDesk support?",
+        "retrieved_contexts": [
+            {
+                "id": "product_overview_1",
+                "source": "product_overview.md",
+                "text": "AtlasDesk is a cloud-based customer support platform for small and medium-sized businesses. It provides ticket management, customer communication, team collaboration and performance reporting.",
+                "distance": 0.3059694766998291
+            },
+            {
+                "id": "support_operations_1",
+                "source": "support_operations.md",
+                "text": "AtlasDesk customer support is available through email and the in-app support portal.",
+                "distance": 0.3209024667739868
+            },
+            {
+                "id": "shipping_and_onboarding_1",
+                "source": "shipping_and_onboarding.md",
+                "text": "AtlasDesk is primarily a cloud-based service. Customers do not need physical hardware to use the platform.",
+                "distance": 0.3563486337661743
+            },
+            {
+                "id": "product_overview_2",
+                "source": "product_overview.md",
+                "text": "AtlasDesk offers three subscription plans: Starter, Standard and Enterprise. The Starter plan is designed for individuals and small teams. Standard provides additional collaboration features, while Enterprise includes advanced administration and custom integrations.",
+                "distance": 0.3836069107055664
+            },
+            {
+                "id": "subscription_policy_1",
+                "source": "subscription_policy.md",
+                "text": "AtlasDesk subscriptions are billed monthly. Customers can upgrade or downgrade their subscription from the billing dashboard.",
+                "distance": 0.41706550121307373
+            }
+        ],
+        "injected_context": [
+            {
+                "id": "product_overview_1",
+                "source": "product_overview.md",
+                "text": "AtlasDesk is a cloud-based customer support platform for small and medium-sized businesses. It provides ticket management, customer communication, team collaboration and performance reporting.",
+                "distance": 0.3059694766998291
+            },
+            {
+                "id": "support_operations_1",
+                "source": "support_operations.md",
+                "text": "AtlasDesk customer support is available through email and the in-app support portal.",
+                "distance": 0.3209024667739868
+            },
+            {
+                "id": "shipping_and_onboarding_1",
+                "source": "shipping_and_onboarding.md",
+                "text": "AtlasDesk is primarily a cloud-based service. Customers do not need physical hardware to use the platform.",
+                "distance": 0.3563486337661743
+            },
+            {
+                "id": "product_overview_2",
+                "source": "product_overview.md",
+                "text": "AtlasDesk offers three subscription plans: Starter, Standard and Enterprise. The Starter plan is designed for individuals and small teams. Standard provides additional collaboration features, while Enterprise includes advanced administration and custom integrations.",
+                "distance": 0.3836069107055664
+            },
+            {
+                "id": "subscription_policy_1",
+                "source": "subscription_policy.md",
+                "text": "AtlasDesk subscriptions are billed monthly. Customers can upgrade or downgrade their subscription from the billing dashboard.",
+                "distance": 0.41706550121307373
+            }
+        ],
+        "final_answer": "I\u2019m sorry, but the supplied context does not contain any information about the maximum number of users that AtlasDesk can support."
+    },
+    {
+        "id": "Q6",
+        "category": "ambiguous",
+        "question": "How long does AtlasDesk delivery take?",
+        "retrieved_contexts": [
+            {
+                "id": "customer_faq_3",
+                "source": "customer_faq.md",
+                "text": "AtlasDesk subscription purchases are covered by a 30-day refund window beginning on the date of the initial purchase. Customers should contact support with their transaction reference to request a refund.",
+                "distance": 0.3956606388092041
+            },
+            {
+                "id": "product_overview_1",
+                "source": "product_overview.md",
+                "text": "AtlasDesk is a cloud-based customer support platform for small and medium-sized businesses. It provides ticket management, customer communication, team collaboration and performance reporting.",
+                "distance": 0.426033616065979
+            },
+            {
+                "id": "support_operations_3",
+                "source": "support_operations.md",
+                "text": "DeskHub orders are normally delivered within 5 to 7 business days after dispatch. Customers can contact support with their order reference to request delivery updates.",
+                "distance": 0.4321519136428833
+            },
+            {
+                "id": "shipping_and_onboarding_3",
+                "source": "shipping_and_onboarding.md",
+                "text": "DeskHub orders are normally delivered within 3 to 5 business days after dispatch. Delivery timelines may vary depending on the destination.",
+                "distance": 0.44637978076934814
+            },
+            {
+                "id": "support_operations_1",
+                "source": "support_operations.md",
+                "text": "AtlasDesk customer support is available through email and the in-app support portal.",
+                "distance": 0.4746084213256836
+            }
+        ],
+        "injected_context": [
+            {
+                "id": "customer_faq_3",
+                "source": "customer_faq.md",
+                "text": "AtlasDesk subscription purchases are covered by a 30-day refund window beginning on the date of the initial purchase. Customers should contact support with their transaction reference to request a refund.",
+                "distance": 0.3956606388092041
+            },
+            {
+                "id": "product_overview_1",
+                "source": "product_overview.md",
+                "text": "AtlasDesk is a cloud-based customer support platform for small and medium-sized businesses. It provides ticket management, customer communication, team collaboration and performance reporting.",
+                "distance": 0.426033616065979
+            },
+            {
+                "id": "support_operations_3",
+                "source": "support_operations.md",
+                "text": "DeskHub orders are normally delivered within 5 to 7 business days after dispatch. Customers can contact support with their order reference to request delivery updates.",
+                "distance": 0.4321519136428833
+            },
+            {
+                "id": "shipping_and_onboarding_3",
+                "source": "shipping_and_onboarding.md",
+                "text": "DeskHub orders are normally delivered within 3 to 5 business days after dispatch. Delivery timelines may vary depending on the destination.",
+                "distance": 0.44637978076934814
+            },
+            {
+                "id": "support_operations_1",
+                "source": "support_operations.md",
+                "text": "AtlasDesk customer support is available through email and the in-app support portal.",
+                "distance": 0.4746084213256836
+            }
+        ],
+        "final_answer": "I\u2019m sorry, but the supplied information does not include any details about a delivery time for AtlasDesk."
+    },
+    {
+        "id": "Q7",
+        "category": "conflicting",
+        "question": "What is the refund period for an initial AtlasDesk subscription purchase?",
+        "retrieved_contexts": [
+            {
+                "id": "customer_faq_3",
+                "source": "customer_faq.md",
+                "text": "AtlasDesk subscription purchases are covered by a 30-day refund window beginning on the date of the initial purchase. Customers should contact support with their transaction reference to request a refund.",
+                "distance": 0.0837659239768982
+            },
+            {
+                "id": "subscription_policy_1",
+                "source": "subscription_policy.md",
+                "text": "AtlasDesk subscriptions are billed monthly. Customers can upgrade or downgrade their subscription from the billing dashboard.",
+                "distance": 0.3019411563873291
+            },
+            {
+                "id": "billing_and_refunds_2",
+                "source": "billing_and_refunds.md",
+                "text": "Customers may request a refund within 14 days of their initial subscription purchase. Refund requests must include the registered account email and transaction reference.",
+                "distance": 0.3138170838356018
+            },
+            {
+                "id": "billing_and_refunds_1",
+                "source": "billing_and_refunds.md",
+                "text": "AtlasDesk charges subscriptions monthly using the payment method registered by the customer. Customers can view invoices and payment history from the billing dashboard.",
+                "distance": 0.35365575551986694
+            },
+            {
+                "id": "support_operations_1",
+                "source": "support_operations.md",
+                "text": "AtlasDesk customer support is available through email and the in-app support portal.",
+                "distance": 0.4281192421913147
+            }
+        ],
+        "injected_context": [
+            {
+                "id": "customer_faq_3",
+                "source": "customer_faq.md",
+                "text": "AtlasDesk subscription purchases are covered by a 30-day refund window beginning on the date of the initial purchase. Customers should contact support with their transaction reference to request a refund.",
+                "distance": 0.0837659239768982
+            },
+            {
+                "id": "subscription_policy_1",
+                "source": "subscription_policy.md",
+                "text": "AtlasDesk subscriptions are billed monthly. Customers can upgrade or downgrade their subscription from the billing dashboard.",
+                "distance": 0.3019411563873291
+            },
+            {
+                "id": "billing_and_refunds_2",
+                "source": "billing_and_refunds.md",
+                "text": "Customers may request a refund within 14 days of their initial subscription purchase. Refund requests must include the registered account email and transaction reference.",
+                "distance": 0.3138170838356018
+            },
+            {
+                "id": "billing_and_refunds_1",
+                "source": "billing_and_refunds.md",
+                "text": "AtlasDesk charges subscriptions monthly using the payment method registered by the customer. Customers can view invoices and payment history from the billing dashboard.",
+                "distance": 0.35365575551986694
+            },
+            {
+                "id": "support_operations_1",
+                "source": "support_operations.md",
+                "text": "AtlasDesk customer support is available through email and the in-app support portal.",
+                "distance": 0.4281192421913147
+            }
+        ],
+        "final_answer": "The refund period for an initial AtlasDesk subscription purchase is **not consistently stated across the provided documents**:\n\n| Source | Stated refund period |\n|--------|----------------------|\n| **customer_faq.md** | 30\u2011day refund window beginning on the date of the initial purchase |\n| **billing_and_refunds.md** | 14\u2011day refund window from the initial subscription purchase |\n\nBecause the two sources give different time frames, the exact refund period cannot be determined from the supplied information alone."
+    },
+    {
+        "id": "Q8",
+        "category": "conflicting",
+        "question": "How many team members are allowed on the AtlasDesk Standard plan?",
+        "retrieved_contexts": [
+            {
+                "id": "customer_faq_2",
+                "source": "customer_faq.md",
+                "text": "The Standard plan supports up to 10 team members. Customers can invite additional members from the team settings page.",
+                "distance": 0.26132190227508545
+            },
+            {
+                "id": "subscription_policy_2",
+                "source": "subscription_policy.md",
+                "text": "The Standard plan supports up to 5 team members. Organizations requiring additional seats must upgrade to Enterprise.",
+                "distance": 0.332741379737854
+            },
+            {
+                "id": "product_overview_2",
+                "source": "product_overview.md",
+                "text": "AtlasDesk offers three subscription plans: Starter, Standard and Enterprise. The Starter plan is designed for individuals and small teams. Standard provides additional collaboration features, while Enterprise includes advanced administration and custom integrations.",
+                "distance": 0.4334542751312256
+            },
+            {
+                "id": "product_overview_1",
+                "source": "product_overview.md",
+                "text": "AtlasDesk is a cloud-based customer support platform for small and medium-sized businesses. It provides ticket management, customer communication, team collaboration and performance reporting.",
+                "distance": 0.5485883355140686
+            },
+            {
+                "id": "product_overview_3",
+                "source": "product_overview.md",
+                "text": "All plans provide access to the ticket management dashboard. Customers can access AtlasDesk through a web browser. Mobile access is available through the official mobile application.",
+                "distance": 0.5705885887145996
+            }
+        ],
+        "injected_context": [
+            {
+                "id": "customer_faq_2",
+                "source": "customer_faq.md",
+                "text": "The Standard plan supports up to 10 team members. Customers can invite additional members from the team settings page.",
+                "distance": 0.26132190227508545
+            },
+            {
+                "id": "subscription_policy_2",
+                "source": "subscription_policy.md",
+                "text": "The Standard plan supports up to 5 team members. Organizations requiring additional seats must upgrade to Enterprise.",
+                "distance": 0.332741379737854
+            },
+            {
+                "id": "product_overview_2",
+                "source": "product_overview.md",
+                "text": "AtlasDesk offers three subscription plans: Starter, Standard and Enterprise. The Starter plan is designed for individuals and small teams. Standard provides additional collaboration features, while Enterprise includes advanced administration and custom integrations.",
+                "distance": 0.4334542751312256
+            },
+            {
+                "id": "product_overview_1",
+                "source": "product_overview.md",
+                "text": "AtlasDesk is a cloud-based customer support platform for small and medium-sized businesses. It provides ticket management, customer communication, team collaboration and performance reporting.",
+                "distance": 0.5485883355140686
+            },
+            {
+                "id": "product_overview_3",
+                "source": "product_overview.md",
+                "text": "All plans provide access to the ticket management dashboard. Customers can access AtlasDesk through a web browser. Mobile access is available through the official mobile application.",
+                "distance": 0.5705885887145996
+            }
+        ],
+        "final_answer": "The information is conflicting:\n\n| Source | Stated limit for the Standard plan |\n|--------|-------------------------------------|\n| **customer_faq.md** | Up to **10** team members |\n| **subscription_policy.md** | Up to **5** team members |\n\nBecause the two sources provide different numbers, the correct limit cannot be determined from the supplied context."
+    }
+]

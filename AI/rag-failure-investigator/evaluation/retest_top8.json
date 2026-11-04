@@ -1,0 +1,170 @@
+[
+    {
+        "id": "Q1",
+        "category": "supported",
+        "question": "What features are included in the AtlasDesk Standard plan?",
+        "retrieved_contexts": [
+            {
+                "id": "product_overview_2",
+                "source": "product_overview.md",
+                "text": "AtlasDesk offers three subscription plans: Starter, Standard and Enterprise. The Starter plan is designed for individuals and small teams. Standard provides additional collaboration features, while Enterprise includes advanced administration and custom integrations.",
+                "distance": 0.30365097522735596
+            },
+            {
+                "id": "product_overview_1",
+                "source": "product_overview.md",
+                "text": "AtlasDesk is a cloud-based customer support platform for small and medium-sized businesses. It provides ticket management, customer communication, team collaboration and performance reporting.",
+                "distance": 0.4155140519142151
+            },
+            {
+                "id": "product_overview_3",
+                "source": "product_overview.md",
+                "text": "All plans provide access to the ticket management dashboard. Customers can access AtlasDesk through a web browser. Mobile access is available through the official mobile application.",
+                "distance": 0.4510538578033447
+            },
+            {
+                "id": "shipping_and_onboarding_1",
+                "source": "shipping_and_onboarding.md",
+                "text": "AtlasDesk is primarily a cloud-based service. Customers do not need physical hardware to use the platform.",
+                "distance": 0.4632953405380249
+            },
+            {
+                "id": "support_operations_1",
+                "source": "support_operations.md",
+                "text": "AtlasDesk customer support is available through email and the in-app support portal.",
+                "distance": 0.5105783939361572
+            },
+            {
+                "id": "shipping_and_onboarding_2",
+                "source": "shipping_and_onboarding.md",
+                "text": "Customers who purchase the optional AtlasDesk DeskHub device receive an onboarding guide by email after their order is confirmed.",
+                "distance": 0.5320446491241455
+            },
+            {
+                "id": "billing_and_refunds_1",
+                "source": "billing_and_refunds.md",
+                "text": "AtlasDesk charges subscriptions monthly using the payment method registered by the customer. Customers can view invoices and payment history from the billing dashboard.",
+                "distance": 0.5345714092254639
+            },
+            {
+                "id": "subscription_policy_1",
+                "source": "subscription_policy.md",
+                "text": "AtlasDesk subscriptions are billed monthly. Customers can upgrade or downgrade their subscription from the billing dashboard.",
+                "distance": 0.5383279919624329
+            }
+        ],
+        "final_answer": "The AtlasDesk **Standard** plan includes all of the core features that every plan offers (ticket\u2011management dashboard, web\u2011browser access, and mobile app access) **plus additional collaboration features** that are not available in the Starter plan. The specific collaboration features are not listed in the supplied information."
+    },
+    {
+        "id": "Q5",
+        "category": "ambiguous",
+        "question": "How many users can AtlasDesk support?",
+        "retrieved_contexts": [
+            {
+                "id": "product_overview_1",
+                "source": "product_overview.md",
+                "text": "AtlasDesk is a cloud-based customer support platform for small and medium-sized businesses. It provides ticket management, customer communication, team collaboration and performance reporting.",
+                "distance": 0.3059694766998291
+            },
+            {
+                "id": "support_operations_1",
+                "source": "support_operations.md",
+                "text": "AtlasDesk customer support is available through email and the in-app support portal.",
+                "distance": 0.3209024667739868
+            },
+            {
+                "id": "shipping_and_onboarding_1",
+                "source": "shipping_and_onboarding.md",
+                "text": "AtlasDesk is primarily a cloud-based service. Customers do not need physical hardware to use the platform.",
+                "distance": 0.3563486337661743
+            },
+            {
+                "id": "product_overview_2",
+                "source": "product_overview.md",
+                "text": "AtlasDesk offers three subscription plans: Starter, Standard and Enterprise. The Starter plan is designed for individuals and small teams. Standard provides additional collaboration features, while Enterprise includes advanced administration and custom integrations.",
+                "distance": 0.3836069107055664
+            },
+            {
+                "id": "subscription_policy_1",
+                "source": "subscription_policy.md",
+                "text": "AtlasDesk subscriptions are billed monthly. Customers can upgrade or downgrade their subscription from the billing dashboard.",
+                "distance": 0.41706550121307373
+            },
+            {
+                "id": "product_overview_3",
+                "source": "product_overview.md",
+                "text": "All plans provide access to the ticket management dashboard. Customers can access AtlasDesk through a web browser. Mobile access is available through the official mobile application.",
+                "distance": 0.437563419342041
+            },
+            {
+                "id": "billing_and_refunds_1",
+                "source": "billing_and_refunds.md",
+                "text": "AtlasDesk charges subscriptions monthly using the payment method registered by the customer. Customers can view invoices and payment history from the billing dashboard.",
+                "distance": 0.46706056594848633
+            },
+            {
+                "id": "customer_faq_3",
+                "source": "customer_faq.md",
+                "text": "AtlasDesk subscription purchases are covered by a 30-day refund window beginning on the date of the initial purchase. Customers should contact support with their transaction reference to request a refund.",
+                "distance": 0.48377102613449097
+            }
+        ],
+        "final_answer": "I\u2019m sorry, but the supplied context does not contain information about the maximum number of users that AtlasDesk can support."
+    },
+    {
+        "id": "Q6",
+        "category": "ambiguous",
+        "question": "How long does AtlasDesk delivery take?",
+        "retrieved_contexts": [
+            {
+                "id": "customer_faq_3",
+                "source": "customer_faq.md",
+                "text": "AtlasDesk subscription purchases are covered by a 30-day refund window beginning on the date of the initial purchase. Customers should contact support with their transaction reference to request a refund.",
+                "distance": 0.3956606388092041
+            },
+            {
+                "id": "product_overview_1",
+                "source": "product_overview.md",
+                "text": "AtlasDesk is a cloud-based customer support platform for small and medium-sized businesses. It provides ticket management, customer communication, team collaboration and performance reporting.",
+                "distance": 0.426033616065979
+            },
+            {
+                "id": "support_operations_3",
+                "source": "support_operations.md",
+                "text": "DeskHub orders are normally delivered within 5 to 7 business days after dispatch. Customers can contact support with their order reference to request delivery updates.",
+                "distance": 0.4321519136428833
+            },
+            {
+                "id": "shipping_and_onboarding_3",
+                "source": "shipping_and_onboarding.md",
+                "text": "DeskHub orders are normally delivered within 3 to 5 business days after dispatch. Delivery timelines may vary depending on the destination.",
+                "distance": 0.44637978076934814
+            },
+            {
+                "id": "support_operations_1",
+                "source": "support_operations.md",
+                "text": "AtlasDesk customer support is available through email and the in-app support portal.",
+                "distance": 0.4746084213256836
+            },
+            {
+                "id": "shipping_and_onboarding_2",
+                "source": "shipping_and_onboarding.md",
+                "text": "Customers who purchase the optional AtlasDesk DeskHub device receive an onboarding guide by email after their order is confirmed.",
+                "distance": 0.497966468334198
+            },
+            {
+                "id": "shipping_and_onboarding_1",
+                "source": "shipping_and_onboarding.md",
+                "text": "AtlasDesk is primarily a cloud-based service. Customers do not need physical hardware to use the platform.",
+                "distance": 0.5074170231819153
+            },
+            {
+                "id": "subscription_policy_1",
+                "source": "subscription_policy.md",
+                "text": "AtlasDesk subscriptions are billed monthly. Customers can upgrade or downgrade their subscription from the billing dashboard.",
+                "distance": 0.5174763202667236
+            }
+        ],
+        "final_answer": "AtlasDesk itself is a cloud\u2011based service, so there is no physical delivery to wait for.  \nIf you purchase the optional AtlasDesk DeskHub device, the delivery time is given in two different places:\n\n| Source | Delivery time |\n|--------|---------------|\n| **support_operations.md** | 5 to 7 business days after dispatch |\n| **shipping_and_onboarding.md** | 3 to 5 business days after dispatch (delivery timelines may vary by destination) |\n\nThese two sources disagree on the exact window, so the precise delivery time for the DeskHub device is unclear from the available information."
+    }
+]
